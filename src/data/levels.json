@@ -1,0 +1,1079 @@
+[
+  {
+    "number": 1,
+    "name": "Niveau 1 — Première ligne",
+    "waves": [
+      {
+        "title": "Vague 1",
+        "enemies": [
+          {
+            "image": "206332911ba6d3d99ae74945ed74ed9e730fe38f.png",
+            "name": "Minion_melee (White Camp)",
+            "tag": "Mêlée de camp",
+            "count": "×10",
+            "hp": "62",
+            "speed": "310",
+            "gold": "8",
+            "heartDmg": "1",
+            "spawn": "Vague 1 · prépa 4 s"
+          },
+          {
+            "image": "1a10b6f116fb28de73712ee6e14cc035709fcdec.png",
+            "name": "Minion_Lane_Melee_Dawn",
+            "tag": "Mêlée",
+            "count": "×7",
+            "hp": "62",
+            "speed": "310",
+            "gold": "8",
+            "heartDmg": "1",
+            "spawn": "Vague 1 · prépa 4 s"
+          },
+          {
+            "image": "732ec76bf23564db0de3f2eaf51ac9a76c1c3792.png",
+            "name": "Minion_Lane_Ranged_Dusk",
+            "tag": "Distance (skin)",
+            "count": "×9",
+            "hp": "62",
+            "speed": "310",
+            "gold": "8",
+            "heartDmg": "1",
+            "spawn": "Vague 1 · prépa 4 s"
+          }
+        ],
+        "total": {
+          "count": "26",
+          "hp": "1612 PV",
+          "gold": "208",
+          "heartDmg": "26",
+          "note": "Or / menace cœur"
+        }
+      },
+      {
+        "title": "Vague 2",
+        "enemies": [
+          {
+            "image": "e31f978423f7e2fedb1eaa614c2b6091272a7bdb.png",
+            "name": "Minion_Lane_Ranged_Dawn",
+            "tag": "Distance",
+            "count": "×10",
+            "hp": "74",
+            "speed": "307",
+            "gold": "9",
+            "heartDmg": "1",
+            "spawn": "Vague 2 · prépa 6 s"
+          },
+          {
+            "image": "3d71ad095d0f4801ccb6afd692462f3edf0926b1.png",
+            "name": "Minion_Lane_Melee_Dusk",
+            "tag": "Mêlée (skin)",
+            "count": "×9",
+            "hp": "74",
+            "speed": "307",
+            "gold": "9",
+            "heartDmg": "1",
+            "spawn": "Vague 2 · prépa 6 s"
+          }
+        ],
+        "total": {
+          "count": "19",
+          "hp": "1406 PV",
+          "gold": "171",
+          "heartDmg": "19",
+          "note": "Or / menace cœur"
+        }
+      }
+    ]
+  },
+  {
+    "number": 2,
+    "name": "Niveau 2 — Renforts en armes",
+    "waves": [
+      {
+        "title": "Vague 1",
+        "enemies": [
+          {
+            "image": "206332911ba6d3d99ae74945ed74ed9e730fe38f.png",
+            "name": "Minion_melee (White Camp)",
+            "tag": "Mêlée de camp",
+            "count": "×8",
+            "hp": "84",
+            "speed": "310",
+            "gold": "12",
+            "heartDmg": "2",
+            "spawn": "Vague 1 · prépa 5 s"
+          },
+          {
+            "image": "d0452cefa74e40e5325798f369827ae2c195452d.png",
+            "name": "Minion_Lane_Siege_Dusk",
+            "tag": "Siège (skin)",
+            "count": "×4",
+            "hp": "154",
+            "speed": "292",
+            "gold": "22",
+            "heartDmg": "3",
+            "spawn": "Vague 1 · prépa 5 s"
+          },
+          {
+            "image": "c9204b58c82f79a567c2fd7e1af0cc41a7543709.png",
+            "name": "Buff_White",
+            "tag": "Golem (skin)",
+            "count": "×4",
+            "hp": "154",
+            "speed": "292",
+            "gold": "22",
+            "heartDmg": "3",
+            "spawn": "Vague 1 · prépa 5 s"
+          },
+          {
+            "image": "84bff7924bf7fbff63ef3f94e70f7995dce3b757.png",
+            "name": "Buff_Blue",
+            "tag": "Golem (skin)",
+            "count": "×5",
+            "hp": "154",
+            "speed": "292",
+            "gold": "22",
+            "heartDmg": "3",
+            "spawn": "Vague 1 · prépa 5 s"
+          },
+          {
+            "image": "d3a526e4c899df82f5d078bde50e3b96af7d7b33.png",
+            "name": "Buff_Red",
+            "tag": "Golem",
+            "count": "×4",
+            "hp": "154",
+            "speed": "292",
+            "gold": "22",
+            "heartDmg": "3",
+            "spawn": "Vague 1 · prépa 5 s"
+          }
+        ],
+        "total": {
+          "count": "25",
+          "hp": "3290 PV",
+          "gold": "470",
+          "heartDmg": "67",
+          "note": "Or / menace cœur"
+        }
+      },
+      {
+        "title": "Vague 2",
+        "enemies": [
+          {
+            "image": "1a10b6f116fb28de73712ee6e14cc035709fcdec.png",
+            "name": "Minion_Lane_Melee_Dawn",
+            "tag": "Mêlée",
+            "count": "×7",
+            "hp": "96",
+            "speed": "307",
+            "gold": "13",
+            "heartDmg": "2",
+            "spawn": "Vague 2 · prépa 7 s"
+          },
+          {
+            "image": "cb62ee35558a752be31d4dbfd140a043fc24c143.png",
+            "name": "Prime_Helix",
+            "tag": "Minion spécial",
+            "count": "×4",
+            "hp": "166",
+            "speed": "289",
+            "gold": "23",
+            "heartDmg": "3",
+            "spawn": "Vague 2 · prépa 7 s"
+          },
+          {
+            "image": "086add48a442b036ddc39e6a32320bd5fba96116.png",
+            "name": "Buff_Green",
+            "tag": "Golem (skin)",
+            "count": "×3",
+            "hp": "166",
+            "speed": "289",
+            "gold": "23",
+            "heartDmg": "3",
+            "spawn": "Vague 2 · prépa 7 s"
+          },
+          {
+            "image": "b52b681da22a39199a8e6b495f3bb4512ddf041c.png",
+            "name": "Minion_Lane_Siege_Dawn",
+            "tag": "Siège",
+            "count": "×3",
+            "hp": "166",
+            "speed": "289",
+            "gold": "23",
+            "heartDmg": "3",
+            "spawn": "Vague 2 · prépa 7 s"
+          }
+        ],
+        "total": {
+          "count": "17",
+          "hp": "2332 PV",
+          "gold": "321",
+          "heartDmg": "44",
+          "note": "Or / menace cœur"
+        }
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "name": "Niveau 3 — Bestiaire sauvage",
+    "waves": [
+      {
+        "title": "Vague 1",
+        "enemies": [
+          {
+            "image": "d0452cefa74e40e5325798f369827ae2c195452d.png",
+            "name": "Minion_Lane_Siege_Dusk",
+            "tag": "Siège (skin)",
+            "count": "×4",
+            "hp": "176",
+            "speed": "292",
+            "gold": "26",
+            "heartDmg": "3",
+            "spawn": "Vague 1 · prépa 6 s"
+          },
+          {
+            "image": "3643347a3e1d4af2aba2f43aa93b14d9d62b4f0b.png",
+            "name": "Corpse_Melee",
+            "tag": "Mort-vivant mêlée",
+            "count": "×2",
+            "hp": "246",
+            "speed": "274",
+            "gold": "36",
+            "heartDmg": "4",
+            "spawn": "Vague 1 · prépa 6 s"
+          },
+          {
+            "image": "69af0c8f6c6e9c3d51068619bbcfbb73bc6abdfc.png",
+            "name": "Hooker_Boss",
+            "tag": "Boss à crochet",
+            "count": "×3",
+            "hp": "246",
+            "speed": "274",
+            "gold": "36",
+            "heartDmg": "4",
+            "spawn": "Vague 1 · prépa 6 s"
+          },
+          {
+            "image": "9033283a698ec13de626bdbaea65d4adad9a449e.png",
+            "name": "Wizard",
+            "tag": "Mage / sorcier",
+            "count": "×3",
+            "hp": "246",
+            "speed": "274",
+            "gold": "36",
+            "heartDmg": "4",
+            "spawn": "Vague 1 · prépa 6 s"
+          },
+          {
+            "image": "78d17364f7c1f9ed9b882a5fe0c0c585863e544b.png",
+            "name": "Grenadier",
+            "tag": "Lanceur de bombes",
+            "count": "×3",
+            "hp": "246",
+            "speed": "274",
+            "gold": "36",
+            "heartDmg": "4",
+            "spawn": "Vague 1 · prépa 6 s"
+          },
+          {
+            "image": "61b0aa052b7c91b2d83a53e6596ffb41c0cbaa68.png",
+            "name": "Charger",
+            "tag": "Squelette chargeur",
+            "count": "×3",
+            "hp": "246",
+            "speed": "274",
+            "gold": "36",
+            "heartDmg": "4",
+            "spawn": "Vague 1 · prépa 6 s"
+          }
+        ],
+        "total": {
+          "count": "18",
+          "hp": "4148 PV",
+          "gold": "608",
+          "heartDmg": "68",
+          "note": "Or / menace cœur"
+        }
+      },
+      {
+        "title": "Vague 2",
+        "enemies": [
+          {
+            "image": "c9204b58c82f79a567c2fd7e1af0cc41a7543709.png",
+            "name": "Buff_White",
+            "tag": "Golem (skin)",
+            "count": "×3",
+            "hp": "188",
+            "speed": "289",
+            "gold": "27",
+            "heartDmg": "3",
+            "spawn": "Vague 2 · prépa 8 s"
+          },
+          {
+            "image": "59099cea7745557f2e70051e89a83d692dfb5259.png",
+            "name": "Hooker",
+            "tag": "Ennemi à crochet",
+            "count": "×2",
+            "hp": "258",
+            "speed": "271",
+            "gold": "37",
+            "heartDmg": "4",
+            "spawn": "Vague 2 · prépa 8 s"
+          },
+          {
+            "image": "06f77576c2e156d5d0cb8f4d9354e94d20d9d31c.png",
+            "name": "Corpse_Sword",
+            "tag": "Mort-vivant à l'épée",
+            "count": "×2",
+            "hp": "258",
+            "speed": "271",
+            "gold": "37",
+            "heartDmg": "4",
+            "spawn": "Vague 2 · prépa 8 s"
+          },
+          {
+            "image": "5c6d38ea95682a2e7357f683a47d7f22e8ccb602.png",
+            "name": "Sploder",
+            "tag": "Ennemi explosif",
+            "count": "×3",
+            "hp": "258",
+            "speed": "271",
+            "gold": "37",
+            "heartDmg": "4",
+            "spawn": "Vague 2 · prépa 8 s"
+          },
+          {
+            "image": "b294ffc86259c9cb52d6057a6a4335edf8ca81b9.png",
+            "name": "Large",
+            "tag": "Gros ennemi (tank)",
+            "count": "×2",
+            "hp": "258",
+            "speed": "271",
+            "gold": "37",
+            "heartDmg": "4",
+            "spawn": "Vague 2 · prépa 8 s"
+          },
+          {
+            "image": "9f6fd38c0934e462ca5fc55555074cc461677816.png",
+            "name": "Minion_Lane_Super_Dawn",
+            "tag": "Super",
+            "count": "×3",
+            "hp": "258",
+            "speed": "271",
+            "gold": "37",
+            "heartDmg": "4",
+            "spawn": "Vague 2 · prépa 8 s"
+          }
+        ],
+        "total": {
+          "count": "15",
+          "hp": "3660 PV",
+          "gold": "525",
+          "heartDmg": "57",
+          "note": "Or / menace cœur"
+        }
+      },
+      {
+        "title": "Vague 3",
+        "enemies": [
+          {
+            "image": "84bff7924bf7fbff63ef3f94e70f7995dce3b757.png",
+            "name": "Buff_Blue",
+            "tag": "Golem (skin)",
+            "count": "×4",
+            "hp": "200",
+            "speed": "286",
+            "gold": "28",
+            "heartDmg": "3",
+            "spawn": "Vague 3 · prépa 10 s"
+          },
+          {
+            "image": "b36cf41810565a635f9ada9141992d651bb4c5df.png",
+            "name": "SK_Centaur",
+            "tag": "Centaure (archer / épéiste)",
+            "count": "×3",
+            "hp": "270",
+            "speed": "268",
+            "gold": "38",
+            "heartDmg": "4",
+            "spawn": "Vague 3 · prépa 10 s"
+          },
+          {
+            "image": "22c2054fea7427448eb2816e3c19d51e0b41ed05.png",
+            "name": "CorpseSpear",
+            "tag": "Mort-vivant à la lance",
+            "count": "×3",
+            "hp": "270",
+            "speed": "268",
+            "gold": "38",
+            "heartDmg": "4",
+            "spawn": "Vague 3 · prépa 10 s"
+          },
+          {
+            "image": "d7405f334f68beac18ef85094599f347c4c8ebf3.png",
+            "name": "Large_Sword",
+            "tag": "Gros épéiste",
+            "count": "×2",
+            "hp": "270",
+            "speed": "268",
+            "gold": "38",
+            "heartDmg": "4",
+            "spawn": "Vague 3 · prépa 10 s"
+          },
+          {
+            "image": "bb423a83ddad3ddf43ba7b99e224741848a887d9.png",
+            "name": "Archer",
+            "tag": "Squelette archer",
+            "count": "×2",
+            "hp": "270",
+            "speed": "268",
+            "gold": "38",
+            "heartDmg": "4",
+            "spawn": "Vague 3 · prépa 10 s"
+          },
+          {
+            "image": "7a4a9bf4dbbae3e4fb9eef7565e3325424ea81f6.png",
+            "name": "SK_BARGHEST",
+            "tag": "Loup-bête quadrupède",
+            "count": "×3",
+            "hp": "270",
+            "speed": "268",
+            "gold": "38",
+            "heartDmg": "4",
+            "spawn": "Vague 3 · prépa 10 s"
+          }
+        ],
+        "total": {
+          "count": "17",
+          "hp": "4310 PV",
+          "gold": "606",
+          "heartDmg": "64",
+          "note": "Or / menace cœur"
+        }
+      },
+      {
+        "title": "Vague 4",
+        "enemies": [
+          {
+            "image": "d3a526e4c899df82f5d078bde50e3b96af7d7b33.png",
+            "name": "Buff_Red",
+            "tag": "Golem",
+            "count": "×4",
+            "hp": "212",
+            "speed": "283",
+            "gold": "29",
+            "heartDmg": "3",
+            "spawn": "Vague 4 · prépa 12 s"
+          },
+          {
+            "image": "d1974e55e3173c01104bea29907ae0ed3a449fb1.png",
+            "name": "SK_Griffon",
+            "tag": "Griffon ailé",
+            "count": "×3",
+            "hp": "282",
+            "speed": "265",
+            "gold": "39",
+            "heartDmg": "4",
+            "spawn": "Vague 4 · prépa 12 s"
+          },
+          {
+            "image": "6721edc3d4c7814cb466ed237032b3a6a081edfd.png",
+            "name": "Large_Charger",
+            "tag": "Gros chargeur",
+            "count": "×3",
+            "hp": "282",
+            "speed": "265",
+            "gold": "39",
+            "heartDmg": "4",
+            "spawn": "Vague 4 · prépa 12 s"
+          },
+          {
+            "image": "df20a4e8e935871456eac0a57de5c8e0355d1220.png",
+            "name": "Buff_Black",
+            "tag": "Golem",
+            "count": "×3",
+            "hp": "282",
+            "speed": "265",
+            "gold": "39",
+            "heartDmg": "4",
+            "spawn": "Vague 4 · prépa 12 s"
+          },
+          {
+            "image": "0479fcf37ea080da322ceda832186f1b6dee56c9.png",
+            "name": "Minion_Lane_Super_Dusk",
+            "tag": "Super (skin)",
+            "count": "×2",
+            "hp": "282",
+            "speed": "265",
+            "gold": "39",
+            "heartDmg": "4",
+            "spawn": "Vague 4 · prépa 12 s"
+          },
+          {
+            "image": "ca8f032a5cda4fd78ad25b4a9502c4c6fd645cfd.png",
+            "name": "Corpse_Basic",
+            "tag": "Mort-vivant de base",
+            "count": "×2",
+            "hp": "282",
+            "speed": "265",
+            "gold": "39",
+            "heartDmg": "4",
+            "spawn": "Vague 4 · prépa 12 s"
+          }
+        ],
+        "total": {
+          "count": "17",
+          "hp": "4514 PV",
+          "gold": "623",
+          "heartDmg": "64",
+          "note": "Or / menace cœur"
+        }
+      },
+      {
+        "title": "Vague 5",
+        "enemies": [
+          {
+            "image": "cb62ee35558a752be31d4dbfd140a043fc24c143.png",
+            "name": "Prime_Helix",
+            "tag": "Minion spécial",
+            "count": "×5",
+            "hp": "224",
+            "speed": "280",
+            "gold": "30",
+            "heartDmg": "3",
+            "spawn": "Vague 5 · prépa 14 s"
+          },
+          {
+            "image": "d1638aa1ca12e622e5761f8686a9f46ec56db5a3.png",
+            "name": "enemy_Sword",
+            "tag": "Squelette épéiste",
+            "count": "×3",
+            "hp": "294",
+            "speed": "262",
+            "gold": "40",
+            "heartDmg": "4",
+            "spawn": "Vague 5 · prépa 14 s"
+          }
+        ],
+        "total": {
+          "count": "8",
+          "hp": "2002 PV",
+          "gold": "270",
+          "heartDmg": "27",
+          "note": "Or / menace cœur"
+        }
+      }
+    ]
+  },
+  {
+    "number": 4,
+    "name": "Niveau 4 — Terres maudites",
+    "waves": [
+      {
+        "title": "Vague 1",
+        "enemies": [
+          {
+            "image": "3643347a3e1d4af2aba2f43aa93b14d9d62b4f0b.png",
+            "name": "Corpse_Melee",
+            "tag": "Mort-vivant mêlée",
+            "count": "×3",
+            "hp": "268",
+            "speed": "274",
+            "gold": "40",
+            "heartDmg": "5",
+            "spawn": "Vague 1 · prépa 7 s"
+          },
+          {
+            "image": "6afe43efc21101984c2ae40a43b4d06ad953693f.png",
+            "name": "Twinblast",
+            "tag": "Carry à distance (2 pistolets)",
+            "count": "×1",
+            "hp": "338",
+            "speed": "256",
+            "gold": "50",
+            "heartDmg": "6",
+            "spawn": "Vague 1 · prépa 7 s"
+          },
+          {
+            "image": "de80c8d76596f30a5c6019f25b571c26f766b883.png",
+            "name": "Rampage",
+            "tag": "Tank / bruiser (créature)",
+            "count": "×1",
+            "hp": "338",
+            "speed": "256",
+            "gold": "50",
+            "heartDmg": "6",
+            "spawn": "Vague 1 · prépa 7 s"
+          },
+          {
+            "image": "0cb3df2c1ffbe8c442f8f7b54681ab6f9967f272.png",
+            "name": "Boris",
+            "tag": "Tank / bruiser (ours)",
+            "count": "×2",
+            "hp": "338",
+            "speed": "256",
+            "gold": "50",
+            "heartDmg": "6",
+            "spawn": "Vague 1 · prépa 7 s"
+          },
+          {
+            "image": "66ef93bba3a88747494a5bb7e4878708876eb80a.png",
+            "name": "Kallari",
+            "tag": "Assassin",
+            "count": "×2",
+            "hp": "338",
+            "speed": "256",
+            "gold": "50",
+            "heartDmg": "6",
+            "spawn": "Vague 1 · prépa 7 s"
+          },
+          {
+            "image": "0358e8a6197b67dbed60b07bc673d1b1ced5b5e8.png",
+            "name": "Crunch",
+            "tag": "Fighter (robot)",
+            "count": "×2",
+            "hp": "338",
+            "speed": "256",
+            "gold": "50",
+            "heartDmg": "6",
+            "spawn": "Vague 1 · prépa 7 s"
+          }
+        ],
+        "total": {
+          "count": "11",
+          "hp": "3508 PV",
+          "gold": "520",
+          "heartDmg": "63",
+          "note": "Or / menace cœur"
+        }
+      },
+      {
+        "title": "Vague 2",
+        "enemies": [
+          {
+            "image": "69af0c8f6c6e9c3d51068619bbcfbb73bc6abdfc.png",
+            "name": "Hooker_Boss",
+            "tag": "Boss à crochet",
+            "count": "×2",
+            "hp": "280",
+            "speed": "271",
+            "gold": "41",
+            "heartDmg": "5",
+            "spawn": "Vague 2 · prépa 9 s"
+          },
+          {
+            "image": "6dc3dccf14907b18a87d7855ab44a22aadf29760.png",
+            "name": "Howitzer",
+            "tag": "Caster artilleur (robot)",
+            "count": "×2",
+            "hp": "350",
+            "speed": "253",
+            "gold": "51",
+            "heartDmg": "6",
+            "spawn": "Vague 2 · prépa 9 s"
+          },
+          {
+            "image": "b423a69eaa88e9e832175f98436c7fabca8c08ce.png",
+            "name": "SK_MOUNTAIN_DRAGON",
+            "tag": "Dragon des montagnes",
+            "count": "×1",
+            "hp": "350",
+            "speed": "253",
+            "gold": "51",
+            "heartDmg": "6",
+            "spawn": "Vague 2 · prépa 9 s"
+          },
+          {
+            "image": "c3ac63d62aea85e76bc9a215c9287ecb4dd67042.png",
+            "name": "Narbash",
+            "tag": "Support (batteur)",
+            "count": "×2",
+            "hp": "350",
+            "speed": "253",
+            "gold": "51",
+            "heartDmg": "6",
+            "spawn": "Vague 2 · prépa 9 s"
+          },
+          {
+            "image": "492968eced8e9dc67215d4a54eb18e6a4bfa1f87.png",
+            "name": "Morigesh",
+            "tag": "Mage / sorcière",
+            "count": "×2",
+            "hp": "350",
+            "speed": "253",
+            "gold": "51",
+            "heartDmg": "6",
+            "spawn": "Vague 2 · prépa 9 s"
+          },
+          {
+            "image": "aa743a6ccbb9e21ddbc86dd6f623450005d30397.png",
+            "name": "Riktor",
+            "tag": "Tank / initiateur (cyborg)",
+            "count": "×1",
+            "hp": "350",
+            "speed": "253",
+            "gold": "51",
+            "heartDmg": "6",
+            "spawn": "Vague 2 · prépa 9 s"
+          }
+        ],
+        "total": {
+          "count": "10",
+          "hp": "3360 PV",
+          "gold": "490",
+          "heartDmg": "58",
+          "note": "Or / menace cœur"
+        }
+      },
+      {
+        "title": "Vague 3",
+        "enemies": [
+          {
+            "image": "9033283a698ec13de626bdbaea65d4adad9a449e.png",
+            "name": "Wizard",
+            "tag": "Mage / sorcier",
+            "count": "×2",
+            "hp": "292",
+            "speed": "268",
+            "gold": "42",
+            "heartDmg": "5",
+            "spawn": "Vague 3 · prépa 11 s"
+          },
+          {
+            "image": "991e356f7c721366b0f66a19b6f6f732604f2659.png",
+            "name": "Revenant",
+            "tag": "Carry à distance (pistolero)",
+            "count": "×2",
+            "hp": "362",
+            "speed": "250",
+            "gold": "52",
+            "heartDmg": "6",
+            "spawn": "Vague 3 · prépa 11 s"
+          },
+          {
+            "image": "7fff0dbfaa86e98b6bd096713949a6045918a5e7.png",
+            "name": "Steel",
+            "tag": "Tank (chevalier-robot)",
+            "count": "×1",
+            "hp": "362",
+            "speed": "250",
+            "gold": "52",
+            "heartDmg": "6",
+            "spawn": "Vague 3 · prépa 11 s"
+          },
+          {
+            "image": "1e5d7e88c5d3b328a837543a9ea02632d1450ff5.png",
+            "name": "Fey",
+            "tag": "Caster / support (fée)",
+            "count": "×1",
+            "hp": "362",
+            "speed": "250",
+            "gold": "52",
+            "heartDmg": "6",
+            "spawn": "Vague 3 · prépa 11 s"
+          },
+          {
+            "image": "69af0c8f6c6e9c3d51068619bbcfbb73bc6abdfc.png",
+            "name": "Hooker_Boss",
+            "tag": "Boss à crochet",
+            "count": "×2",
+            "hp": "362",
+            "speed": "250",
+            "gold": "52",
+            "heartDmg": "6",
+            "spawn": "Vague 3 · prépa 11 s"
+          },
+          {
+            "image": "1e5d7e88c5d3b328a837543a9ea02632d1450ff5.png",
+            "name": "Drongo",
+            "tag": "Carry à distance",
+            "count": "×1",
+            "hp": "362",
+            "speed": "250",
+            "gold": "52",
+            "heartDmg": "6",
+            "spawn": "Vague 3 · prépa 11 s"
+          }
+        ],
+        "total": {
+          "count": "9",
+          "hp": "3118 PV",
+          "gold": "448",
+          "heartDmg": "52",
+          "note": "Or / menace cœur"
+        }
+      },
+      {
+        "title": "Vague 4",
+        "enemies": [
+          {
+            "image": "78d17364f7c1f9ed9b882a5fe0c0c585863e544b.png",
+            "name": "Grenadier",
+            "tag": "Lanceur de bombes",
+            "count": "×3",
+            "hp": "304",
+            "speed": "265",
+            "gold": "43",
+            "heartDmg": "5",
+            "spawn": "Vague 4 · prépa 13 s"
+          },
+          {
+            "image": "1221626fe988942b9d33c3367a7b136919ccbc94.png",
+            "name": "Gideon",
+            "tag": "Mage cosmique",
+            "count": "×2",
+            "hp": "374",
+            "speed": "247",
+            "gold": "53",
+            "heartDmg": "6",
+            "spawn": "Vague 4 · prépa 13 s"
+          },
+          {
+            "image": "677cb2f5cdbd8dbaabf84ac771fe8d6357f4d3dd.png",
+            "name": "Countess",
+            "tag": "Assassin / mage (vampire)",
+            "count": "×2",
+            "hp": "374",
+            "speed": "247",
+            "gold": "53",
+            "heartDmg": "6",
+            "spawn": "Vague 4 · prépa 13 s"
+          },
+          {
+            "image": "dd6a878ec23ebf49beabc809c426a50223005a1f.png",
+            "name": "Serath",
+            "tag": "Fighter (ange)",
+            "count": "×2",
+            "hp": "374",
+            "speed": "247",
+            "gold": "53",
+            "heartDmg": "6",
+            "spawn": "Vague 4 · prépa 13 s"
+          },
+          {
+            "image": "f47fa5c79778d2933a825bb042a96fdb49534420.png",
+            "name": "Wraith",
+            "tag": "Sniper / à distance",
+            "count": "×1",
+            "hp": "374",
+            "speed": "247",
+            "gold": "53",
+            "heartDmg": "6",
+            "spawn": "Vague 4 · prépa 13 s"
+          },
+          {
+            "image": "24a252386372a53341d64a90f98c860e55817b4a.png",
+            "name": "Feng Mao",
+            "tag": "Fighter (guerrier-loup)",
+            "count": "×1",
+            "hp": "374",
+            "speed": "247",
+            "gold": "53",
+            "heartDmg": "6",
+            "spawn": "Vague 4 · prépa 13 s"
+          }
+        ],
+        "total": {
+          "count": "11",
+          "hp": "3904 PV",
+          "gold": "553",
+          "heartDmg": "63",
+          "note": "Or / menace cœur"
+        }
+      },
+      {
+        "title": "Vague 5",
+        "enemies": [
+          {
+            "image": "61b0aa052b7c91b2d83a53e6596ffb41c0cbaa68.png",
+            "name": "Charger",
+            "tag": "Squelette chargeur",
+            "count": "×3",
+            "hp": "316",
+            "speed": "262",
+            "gold": "44",
+            "heartDmg": "5",
+            "spawn": "Vague 5 · prépa 15 s"
+          },
+          {
+            "image": "6f2a0e73f42b3fcd2891ef1a079ca6aca9c80e71.png",
+            "name": "Teuthisan",
+            "tag": "Créature alien",
+            "count": "×2",
+            "hp": "386",
+            "speed": "244",
+            "gold": "54",
+            "heartDmg": "6",
+            "spawn": "Vague 5 · prépa 15 s"
+          }
+        ],
+        "total": {
+          "count": "5",
+          "hp": "1720 PV",
+          "gold": "240",
+          "heartDmg": "27",
+          "note": "Or / menace cœur"
+        }
+      }
+    ]
+  },
+  {
+    "number": 5,
+    "name": "Niveau 5 — Champions déchus",
+    "waves": [
+      {
+        "title": "Vague 1",
+        "enemies": [
+          {
+            "image": "6afe43efc21101984c2ae40a43b4d06ad953693f.png",
+            "name": "Twinblast",
+            "tag": "Carry à distance (2 pistolets)",
+            "count": "×1",
+            "hp": "360",
+            "speed": "256",
+            "gold": "54",
+            "heartDmg": "6",
+            "spawn": "Vague 1 · prépa 8 s"
+          },
+          {
+            "image": "1798850df67a70bd6d4f53262b466cdf925fb9d5.png",
+            "name": "Iggy & Scorch",
+            "tag": "Carry à distance (gobelin + dragon)",
+            "count": "×1",
+            "hp": "430",
+            "speed": "238",
+            "gold": "64",
+            "heartDmg": "7",
+            "spawn": "Vague 1 · prépa 8 s"
+          }
+        ],
+        "total": {
+          "count": "2",
+          "hp": "790 PV",
+          "gold": "118",
+          "heartDmg": "13",
+          "note": "Or / menace cœur"
+        }
+      },
+      {
+        "title": "Vague 2",
+        "enemies": [
+          {
+            "image": "de80c8d76596f30a5c6019f25b571c26f766b883.png",
+            "name": "Rampage",
+            "tag": "Tank / bruiser (créature)",
+            "count": "×2",
+            "hp": "372",
+            "speed": "253",
+            "gold": "55",
+            "heartDmg": "6",
+            "spawn": "Vague 2 · prépa 10 s"
+          },
+          {
+            "image": "0f2ef8f4bd2c859045acd96971169e20c8ad18d5.png",
+            "name": "IggyScorch",
+            "tag": "Boss (gobelin + dragon)",
+            "count": "×1",
+            "hp": "442",
+            "speed": "235",
+            "gold": "65",
+            "heartDmg": "7",
+            "spawn": "Vague 2 · prépa 10 s"
+          }
+        ],
+        "total": {
+          "count": "3",
+          "hp": "1186 PV",
+          "gold": "175",
+          "heartDmg": "19",
+          "note": "Or / menace cœur"
+        }
+      }
+    ]
+  },
+  {
+    "number": 6,
+    "name": "Niveau 6 — Boss majeurs",
+    "waves": [
+      {
+        "title": "Vague 1",
+        "enemies": [
+          {
+            "image": "1798850df67a70bd6d4f53262b466cdf925fb9d5.png",
+            "name": "Iggy & Scorch",
+            "tag": "Carry à distance (gobelin + dragon)",
+            "count": "×1",
+            "hp": "452",
+            "speed": "238",
+            "gold": "68",
+            "heartDmg": "8",
+            "spawn": "Vague 1 · prépa 9 s"
+          },
+          {
+            "image": "e395f7867de2ab73a3a2c408b444096f58f2fee7.png",
+            "name": "Khaimera",
+            "tag": "Bruiser jungler",
+            "count": "×1",
+            "hp": "522",
+            "speed": "220",
+            "gold": "78",
+            "heartDmg": "9",
+            "spawn": "Vague 1 · prépa 9 s"
+          },
+          {
+            "image": "90d4c9e0900ae025f7bb823a1a4350ddbc5873fd.png",
+            "name": "Grux",
+            "tag": "Bruiser insectoïde",
+            "count": "×1",
+            "hp": "522",
+            "speed": "220",
+            "gold": "78",
+            "heartDmg": "9",
+            "spawn": "Vague 1 · prépa 9 s"
+          }
+        ],
+        "total": {
+          "count": "3",
+          "hp": "1496 PV",
+          "gold": "224",
+          "heartDmg": "26",
+          "note": "Or / menace cœur"
+        }
+      },
+      {
+        "title": "Vague 2",
+        "enemies": [
+          {
+            "image": "0f2ef8f4bd2c859045acd96971169e20c8ad18d5.png",
+            "name": "IggyScorch",
+            "tag": "Boss (gobelin + dragon)",
+            "count": "×1",
+            "hp": "464",
+            "speed": "235",
+            "gold": "69",
+            "heartDmg": "8",
+            "spawn": "Vague 2 · prépa 11 s"
+          },
+          {
+            "image": "5915155c081e1e2202020109c9593e63ed5aed79.png",
+            "name": "Sevarog",
+            "tag": "Tank (golem)",
+            "count": "×1",
+            "hp": "534",
+            "speed": "217",
+            "gold": "79",
+            "heartDmg": "9",
+            "spawn": "Vague 2 · prépa 11 s"
+          }
+        ],
+        "total": {
+          "count": "2",
+          "hp": "998 PV",
+          "gold": "148",
+          "heartDmg": "17",
+          "note": "Or / menace cœur"
+        }
+      }
+    ]
+  }
+]

@@ -16,7 +16,12 @@ Puis ouvrir http://localhost:5173.
 
 - `src/data/content.ts` — contenu du game design document (modes de jeu, cartes, économie, etc.)
 - `src/data/catalogue.json` — données du catalogue d'assets (générées depuis le `.docx`)
-- `src/pages/` — pages : Accueil, sections de design, Vagues, Héros, Assets
+- `src/data/levels.json` — **progression générée** en 6 niveaux qui répartit l'intégralité du
+  bestiaire (`catalogue.json`) en vagues, avec des stats (PV, vitesse, or, dégâts cœur) extrapolées
+  à partir des patterns observés dans les vagues originales du `.docx`. Ce n'est pas une donnée
+  extraite du document source (qui ne définissait que 6 vagues sur une carte unique) mais une
+  proposition de level design couvrant tous les ennemis catalogués.
+- `src/pages/` — pages : Accueil, sections de design, Niveaux & vagues, Ennemis & Assets 3D
 - `src/components/` — Sidebar, cartes avec effet spotlight, textes en dégradé, animations d'entrée
 - `public/assets/catalogue/` — images extraites du catalogue Word
 

@@ -34,7 +34,7 @@ function NavContent({ onNavigate }: { onNavigate?: () => void }) {
         Catalogue
       </div>
       <NavLink to="/catalogue/waves" className={navLinkClass}>
-        <pageIcons.waves size={16} /> Vagues d'ennemis
+        <pageIcons.waves size={16} /> Niveaux &amp; vagues
       </NavLink>
       <NavLink to="/catalogue/assets" className={navLinkClass}>
         <pageIcons.assets size={16} /> Ennemis &amp; Assets 3D
