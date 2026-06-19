@@ -1,10 +1,50 @@
 [
   {
-    "id": "vallee-de-laube",
-    "name": "Vallée de l'Aube",
+    "id": "cathedral",
+    "name": "Cathédrale",
     "chapterId": "chapitre-1",
-    "description": "Carte principale du Chapitre 1 — une vallée verdoyante traversée par une seule piste menant au cœur à défendre.",
+    "description": "Une cathédrale en ruines servant de champ de bataille pour le Chapitre 1.",
     "lanes": 1,
-    "image": null
+    "image": "Cathedral.png"
+  },
+  {
+    "id": "deep-elder-caves",
+    "name": "Grottes Anciennes",
+    "chapterId": "",
+    "description": "Un réseau de grottes profondes et obscures, repaire de créatures souterraines.",
+    "lanes": 1,
+    "image": "DeepElderCaves.png"
+  },
+  {
+    "id": "gladiator-arena",
+    "name": "Arène du Gladiateur",
+    "chapterId": "",
+    "description": "Une arène de combat circulaire, idéale pour des affrontements à vagues multiples.",
+    "lanes": 1,
+    "image": "GladiatorArena.png"
+  },
+  {
+    "id": "greek-island",
+    "name": "Île Grecque",
+    "chapterId": "",
+    "description": "Une île baignée de soleil, ruines antiques et criques rocheuses.",
+    "lanes": 1,
+    "image": "GreekIsland.png"
+  },
+  {
+    "id": "ithris-cemetery",
+    "name": "Cimetière d'Ithris",
+    "chapterId": "",
+    "description": "Un cimetière brumeux hanté par les morts-vivants.",
+    "lanes": 1,
+    "image": "IthrisCemetery.png"
+  },
+  {
+    "id": "watermills",
+    "name": "Moulins à Eau",
+    "chapterId": "",
+    "description": "Une vallée parsemée de moulins à eau le long d'une rivière sinueuse.",
+    "lanes": 1,
+    "image": "Watermills.png"
   }
 ]

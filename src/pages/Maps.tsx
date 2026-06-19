@@ -1,18 +1,24 @@
 import { useStore, type GameMap } from '../store/store';
-import { EditableText, EditableNumber } from '../components/Editable';
+import { EditableText, EditableNumber, EditableSelect } from '../components/Editable';
 import SpotlightCard from '../components/SpotlightCard';
 import FadeIn from '../components/FadeIn';
+import { mapAsset } from '../lib/asset';
 import { MapIcon, Plus, Trash2 } from 'lucide-react';
 
 export default function Maps() {
   const { maps, chapters, editMode } = useStore();
+
+  const chapterOptions = [
+    { value: '', label: 'Sans chapitre' },
+    ...chapters.value.map((c) => ({ value: c.id, label: c.name })),
+  ];
 
   function addMap() {
     const id = `map-${Date.now()}`;
     const m: GameMap = {
       id,
       name: 'Nouvelle carte',
-      chapterId: chapters.value[0]?.id ?? '',
+      chapterId: '',
       description: '',
       lanes: 1,
       image: null,
@@ -42,39 +48,47 @@ export default function Maps() {
       )}
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        {maps.items.map((m) => {
-          const chapter = chapters.value.find((c) => c.id === m.chapterId);
-          return (
-            <FadeIn key={m.id}>
-              <SpotlightCard className="h-full relative">
-                {editMode && (
-                  <button
-                    onClick={() => maps.removeItem(m.id)}
-                    className="absolute top-2 right-2 p-1 rounded-md bg-rose-500/15 text-rose-300"
-                  >
-                    <Trash2 size={13} />
-                  </button>
-                )}
-                <EditableText
-                  value={m.name}
-                  onChange={(v) => maps.updateItem(m.id, { name: v })}
-                  className="font-semibold text-[var(--text-h)] block mb-1"
+        {maps.items.map((m) => (
+          <FadeIn key={m.id}>
+            <SpotlightCard className="h-full relative">
+              {editMode && (
+                <button
+                  onClick={() => maps.removeItem(m.id)}
+                  className="absolute top-2 right-2 p-1 rounded-md bg-rose-500/15 text-rose-300 z-10"
+                >
+                  <Trash2 size={13} />
+                </button>
+              )}
+              {m.image && (
+                <img
+                  src={mapAsset(m.image)}
+                  alt={m.name}
+                  className="w-full h-36 object-cover rounded-lg mb-3 bg-[var(--panel-soft)] border border-[var(--border)]"
                 />
-                <div className="text-[11px] text-[var(--accent-2)] mb-2">
-                  {chapter ? chapter.name : 'Sans chapitre'}
-                </div>
-                <EditableText
-                  value={m.description}
-                  onChange={(v) => maps.updateItem(m.id, { description: v })}
-                  className="text-xs text-[var(--text)] block mb-3"
+              )}
+              <EditableText
+                value={m.name}
+                onChange={(v) => maps.updateItem(m.id, { name: v })}
+                className="font-semibold text-[var(--text-h)] block mb-1"
+              />
+              <div className="text-[11px] text-[var(--accent-2)] mb-2">
+                <EditableSelect
+                  value={m.chapterId}
+                  onChange={(v) => maps.updateItem(m.id, { chapterId: v })}
+                  options={chapterOptions}
                 />
-                <div className="text-[11px] text-[var(--text)]">
-                  Pistes <EditableNumber value={m.lanes} onChange={(v) => maps.updateItem(m.id, { lanes: v })} />
-                </div>
-              </SpotlightCard>
-            </FadeIn>
-          );
-        })}
+              </div>
+              <EditableText
+                value={m.description}
+                onChange={(v) => maps.updateItem(m.id, { description: v })}
+                className="text-xs text-[var(--text)] block mb-3"
+              />
+              <div className="text-[11px] text-[var(--text)]">
+                Pistes <EditableNumber value={m.lanes} onChange={(v) => maps.updateItem(m.id, { lanes: v })} />
+              </div>
+            </SpotlightCard>
+          </FadeIn>
+        ))}
       </div>
     </div>
   );
