@@ -5,7 +5,7 @@ import { sectionIcons } from '../data/icons';
 import SpotlightCard from '../components/SpotlightCard';
 import GradientText from '../components/GradientText';
 import FadeIn from '../components/FadeIn';
-import { Swords, Users, Boxes, ArrowRight } from 'lucide-react';
+import { Swords, Skull, ArrowRight } from 'lucide-react';
 
 export default function Home() {
   return (
@@ -29,10 +29,9 @@ export default function Home() {
         </p>
       </motion.div>
 
-      <FadeIn className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-12">
+      <FadeIn className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
         <QuickLink to="/catalogue/waves" icon={<Swords size={18} />} title="Vagues d'ennemis" text="6 vagues, stats détaillées" />
-        <QuickLink to="/catalogue/heroes" icon={<Users size={18} />} title="Héros Paragon" text="22 modèles 3D référencés" />
-        <QuickLink to="/catalogue/assets" icon={<Boxes size={18} />} title="Assets 3D" text="Créatures, boss, golems" />
+        <QuickLink to="/catalogue/assets" icon={<Skull size={18} />} title="Ennemis & Assets 3D" text="Héros Paragon, boss, golems, créatures" />
       </FadeIn>
 
       <FadeIn delay={0.1}>

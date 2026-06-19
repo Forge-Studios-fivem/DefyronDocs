@@ -36,11 +36,8 @@ function NavContent({ onNavigate }: { onNavigate?: () => void }) {
       <NavLink to="/catalogue/waves" className={navLinkClass}>
         <pageIcons.waves size={16} /> Vagues d'ennemis
       </NavLink>
-      <NavLink to="/catalogue/heroes" className={navLinkClass}>
-        <pageIcons.heroes size={16} /> Héros (Paragon)
-      </NavLink>
       <NavLink to="/catalogue/assets" className={navLinkClass}>
-        <pageIcons.assets size={16} /> Assets 3D
+        <pageIcons.assets size={16} /> Ennemis &amp; Assets 3D
       </NavLink>
     </nav>
   );

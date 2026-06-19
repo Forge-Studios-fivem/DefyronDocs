@@ -1,10 +1,9 @@
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate } from 'react-router-dom';
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import DesignSection from './pages/DesignSection';
 import Waves from './pages/Waves';
-import Heroes from './pages/Heroes';
-import Assets from './pages/Assets';
+import Bestiary from './pages/Bestiary';
 
 export default function App() {
   return (
@@ -13,8 +12,8 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/design/:id" element={<DesignSection />} />
         <Route path="/catalogue/waves" element={<Waves />} />
-        <Route path="/catalogue/heroes" element={<Heroes />} />
-        <Route path="/catalogue/assets" element={<Assets />} />
+        <Route path="/catalogue/assets" element={<Bestiary />} />
+        <Route path="/catalogue/heroes" element={<Navigate to="/catalogue/assets" replace />} />
       </Routes>
     </Layout>
   );

@@ -11,8 +11,7 @@ import {
   Wrench,
   Rocket,
   Waves,
-  Crown,
-  Boxes,
+  Skull,
   type LucideIcon,
 } from 'lucide-react';
 
@@ -32,6 +31,5 @@ export const sectionIcons: Record<string, LucideIcon> = {
 
 export const pageIcons = {
   waves: Waves,
-  heroes: Crown,
-  assets: Boxes,
+  assets: Skull,
 };
