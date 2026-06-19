@@ -1,0 +1,575 @@
+{
+  "waves": [
+    {
+      "title": "VAGUE 1  —  Préparation 3 s",
+      "enemies": [
+        {
+          "image": "1a10b6f116fb28de73712ee6e14cc035709fcdec.png",
+          "name": "Minion_Lane_Melee_Dawn",
+          "count": "×8",
+          "hp": "55",
+          "speed": "280",
+          "gold": "5",
+          "heartDmg": "1",
+          "spawn": "Dès le début · 1 / s"
+        }
+      ],
+      "total": {
+        "count": "8",
+        "hp": "440 PV",
+        "gold": "40",
+        "heartDmg": "8",
+        "note": "Or / menace cœur"
+      }
+    },
+    {
+      "title": "VAGUE 2  —  Préparation 6 s",
+      "enemies": [
+        {
+          "image": "1a10b6f116fb28de73712ee6e14cc035709fcdec.png",
+          "name": "Minion_Lane_Melee_Dawn",
+          "count": "×10",
+          "hp": "55",
+          "speed": "280",
+          "gold": "5",
+          "heartDmg": "1",
+          "spawn": "Dès le début · 0,9 / s"
+        },
+        {
+          "image": "e31f978423f7e2fedb1eaa614c2b6091272a7bdb.png",
+          "name": "Minion_Lane_Ranged_Dawn",
+          "count": "×6",
+          "hp": "45",
+          "speed": "300",
+          "gold": "6",
+          "heartDmg": "1",
+          "spawn": "Après 3 s · 1 / s"
+        }
+      ],
+      "total": {
+        "count": "16",
+        "hp": "820 PV",
+        "gold": "86",
+        "heartDmg": "16",
+        "note": "Or / menace cœur"
+      }
+    },
+    {
+      "title": "VAGUE 3  —  Préparation 6 s",
+      "enemies": [
+        {
+          "image": "e31f978423f7e2fedb1eaa614c2b6091272a7bdb.png",
+          "name": "Minion_Lane_Ranged_Dawn",
+          "count": "×8",
+          "hp": "45",
+          "speed": "300",
+          "gold": "6",
+          "heartDmg": "1",
+          "spawn": "Dès le début · 0,8 / s"
+        },
+        {
+          "image": "b52b681da22a39199a8e6b495f3bb4512ddf041c.png",
+          "name": "Minion_Lane_Siege_Dawn",
+          "count": "×2",
+          "hp": "280",
+          "speed": "150",
+          "gold": "28",
+          "heartDmg": "3",
+          "spawn": "Après 4 s · 2 s"
+        }
+      ],
+      "total": {
+        "count": "10",
+        "hp": "920 PV",
+        "gold": "104",
+        "heartDmg": "14",
+        "note": "Or / menace cœur"
+      }
+    },
+    {
+      "title": "VAGUE 4  —  Préparation 6 s",
+      "enemies": [
+        {
+          "image": "1a10b6f116fb28de73712ee6e14cc035709fcdec.png",
+          "name": "Minion_Lane_Melee_Dawn",
+          "count": "×12",
+          "hp": "55",
+          "speed": "280",
+          "gold": "5",
+          "heartDmg": "1",
+          "spawn": "Dès le début · 0,7 / s"
+        },
+        {
+          "image": "df20a4e8e935871456eac0a57de5c8e0355d1220.png",
+          "name": "Buff_Black",
+          "count": "×3",
+          "hp": "220",
+          "speed": "170",
+          "gold": "22",
+          "heartDmg": "2",
+          "spawn": "Après 5 s · 2,5 s"
+        }
+      ],
+      "total": {
+        "count": "15",
+        "hp": "1320 PV",
+        "gold": "126",
+        "heartDmg": "18",
+        "note": "Or / menace cœur"
+      }
+    },
+    {
+      "title": "VAGUE 5  —  Préparation 7 s",
+      "enemies": [
+        {
+          "image": "1a10b6f116fb28de73712ee6e14cc035709fcdec.png",
+          "name": "Minion_Lane_Melee_Dawn",
+          "count": "×12",
+          "hp": "55",
+          "speed": "280",
+          "gold": "5",
+          "heartDmg": "1",
+          "spawn": "Dès le début · 0,6 / s"
+        },
+        {
+          "image": "b52b681da22a39199a8e6b495f3bb4512ddf041c.png",
+          "name": "Minion_Lane_Siege_Dawn",
+          "count": "×4",
+          "hp": "280",
+          "speed": "150",
+          "gold": "28",
+          "heartDmg": "3",
+          "spawn": "Après 2 s · 1,5 s"
+        },
+        {
+          "image": "9f6fd38c0934e462ca5fc55555074cc461677816.png",
+          "name": "Minion_Lane_Super_Dawn",
+          "count": "×1",
+          "hp": "500",
+          "speed": "130",
+          "gold": "50",
+          "heartDmg": "5",
+          "spawn": "Après 8 s"
+        }
+      ],
+      "total": {
+        "count": "17",
+        "hp": "2280 PV",
+        "gold": "222",
+        "heartDmg": "29",
+        "note": "Or / menace cœur"
+      }
+    },
+    {
+      "title": "VAGUE 6  —  Préparation 8 s",
+      "enemies": [
+        {
+          "image": "1a10b6f116fb28de73712ee6e14cc035709fcdec.png",
+          "name": "Minion_Lane_Melee_Dawn",
+          "count": "×15",
+          "hp": "55",
+          "speed": "280",
+          "gold": "5",
+          "heartDmg": "1",
+          "spawn": "Dès le début · 0,5 / s"
+        },
+        {
+          "image": "ad5d5b14c5ca18274b761db885fec13d4a2af5ac.png",
+          "name": "Grux",
+          "count": "×1",
+          "hp": "1800",
+          "speed": "150",
+          "gold": "120",
+          "heartDmg": "8",
+          "spawn": "Après 5 s"
+        },
+        {
+          "image": "393fc57f012e6eb90aef7fc24b9b7f52736caecd.png",
+          "name": "Sevarog",
+          "count": "×1",
+          "hp": "2500",
+          "speed": "130",
+          "gold": "180",
+          "heartDmg": "10",
+          "spawn": "Après 12 s"
+        },
+        {
+          "image": "010379123b7df8873054f7311648514780ee267a.png",
+          "name": "Khaimera",
+          "count": "×1",
+          "hp": "2000",
+          "speed": "165",
+          "gold": "150",
+          "heartDmg": "9",
+          "spawn": "Après 20 s"
+        }
+      ],
+      "total": {
+        "count": "18",
+        "hp": "7125 PV",
+        "gold": "525",
+        "heartDmg": "42",
+        "note": "Or / menace cœur"
+      }
+    }
+  ],
+  "misc": [
+    {
+      "section": "Boss (hors vague)",
+      "items": [
+        {
+          "image": "0f2ef8f4bd2c859045acd96971169e20c8ad18d5.png",
+          "name": "IggyScorch",
+          "category": "Boss",
+          "note": "Boss inutilisé — 1500 PV · 170 · 100 or · 7 cœur"
+        }
+      ]
+    },
+    {
+      "section": "Golems (Buff) — couleurs",
+      "items": [
+        {
+          "image": "d3a526e4c899df82f5d078bde50e3b96af7d7b33.png",
+          "name": "Buff_Red",
+          "category": "Golems",
+          "note": "« Golem Rouge » — 100 PV · 300 · 10 or · 1 cœur"
+        },
+        {
+          "image": "84bff7924bf7fbff63ef3f94e70f7995dce3b757.png",
+          "name": "Buff_Blue",
+          "category": "Golems",
+          "note": "Skin (insecte ailé) — cosmétique"
+        },
+        {
+          "image": "086add48a442b036ddc39e6a32320bd5fba96116.png",
+          "name": "Buff_Green",
+          "category": "Golems",
+          "note": "Skin — cosmétique"
+        },
+        {
+          "image": "c9204b58c82f79a567c2fd7e1af0cc41a7543709.png",
+          "name": "Buff_White",
+          "category": "Golems",
+          "note": "Skin — cosmétique"
+        }
+      ]
+    },
+    {
+      "section": "Minions Dusk (skin alternatif)",
+      "items": [
+        {
+          "image": "3d71ad095d0f4801ccb6afd692462f3edf0926b1.png",
+          "name": "Minion_Lane_Melee_Dusk",
+          "category": "Minions",
+          "note": "Skin Mêlée (mêmes stats)"
+        },
+        {
+          "image": "732ec76bf23564db0de3f2eaf51ac9a76c1c3792.png",
+          "name": "Minion_Lane_Ranged_Dusk",
+          "category": "Minions",
+          "note": "Skin Distance"
+        },
+        {
+          "image": "d0452cefa74e40e5325798f369827ae2c195452d.png",
+          "name": "Minion_Lane_Siege_Dusk",
+          "category": "Minions",
+          "note": "Skin Siège"
+        },
+        {
+          "image": "0479fcf37ea080da322ceda832186f1b6dee56c9.png",
+          "name": "Minion_Lane_Super_Dusk",
+          "category": "Minions",
+          "note": "Skin Super"
+        }
+      ]
+    },
+    {
+      "section": "Minions spéciaux",
+      "items": [
+        {
+          "image": "cb62ee35558a752be31d4dbfd140a043fc24c143.png",
+          "name": "Prime_Helix",
+          "category": "Minions",
+          "note": "Minion Prime / Inhibiteur"
+        },
+        {
+          "image": "206332911ba6d3d99ae74945ed74ed9e730fe38f.png",
+          "name": "Minion_melee (White Camp)",
+          "category": "Minions",
+          "note": "Minion de camp"
+        }
+      ]
+    }
+  ],
+  "heroes": [
+    {
+      "image": "0cb3df2c1ffbe8c442f8f7b54681ab6f9967f272.png",
+      "name": "Boris",
+      "role": "Tank / bruiser (ours)",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "677cb2f5cdbd8dbaabf84ac771fe8d6357f4d3dd.png",
+      "name": "Countess",
+      "role": "Assassin / mage (vampire)",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "0358e8a6197b67dbed60b07bc673d1b1ced5b5e8.png",
+      "name": "Crunch",
+      "role": "Fighter (robot)",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "1e5d7e88c5d3b328a837543a9ea02632d1450ff5.png",
+      "name": "Drongo",
+      "role": "Carry à distance",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "24a252386372a53341d64a90f98c860e55817b4a.png",
+      "name": "Feng Mao",
+      "role": "Fighter (guerrier-loup)",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "1e5d7e88c5d3b328a837543a9ea02632d1450ff5.png",
+      "name": "Fey",
+      "role": "Caster / support (fée)",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "1221626fe988942b9d33c3367a7b136919ccbc94.png",
+      "name": "Gideon",
+      "role": "Mage cosmique",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "90d4c9e0900ae025f7bb823a1a4350ddbc5873fd.png",
+      "name": "Grux",
+      "role": "Bruiser insectoïde",
+      "status": "✅ Boss — vague 6"
+    },
+    {
+      "image": "6dc3dccf14907b18a87d7855ab44a22aadf29760.png",
+      "name": "Howitzer",
+      "role": "Caster artilleur (robot)",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "1798850df67a70bd6d4f53262b466cdf925fb9d5.png",
+      "name": "Iggy & Scorch",
+      "role": "Carry à distance (gobelin + dragon)",
+      "status": "⚠️ Data asset — hors vague"
+    },
+    {
+      "image": "66ef93bba3a88747494a5bb7e4878708876eb80a.png",
+      "name": "Kallari",
+      "role": "Assassin",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "e395f7867de2ab73a3a2c408b444096f58f2fee7.png",
+      "name": "Khaimera",
+      "role": "Bruiser jungler",
+      "status": "✅ Boss — vague 6"
+    },
+    {
+      "image": "492968eced8e9dc67215d4a54eb18e6a4bfa1f87.png",
+      "name": "Morigesh",
+      "role": "Mage / sorcière",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "c3ac63d62aea85e76bc9a215c9287ecb4dd67042.png",
+      "name": "Narbash",
+      "role": "Support (batteur)",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "de80c8d76596f30a5c6019f25b571c26f766b883.png",
+      "name": "Rampage",
+      "role": "Tank / bruiser (créature)",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "991e356f7c721366b0f66a19b6f6f732604f2659.png",
+      "name": "Revenant",
+      "role": "Carry à distance (pistolero)",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "aa743a6ccbb9e21ddbc86dd6f623450005d30397.png",
+      "name": "Riktor",
+      "role": "Tank / initiateur (cyborg)",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "dd6a878ec23ebf49beabc809c426a50223005a1f.png",
+      "name": "Serath",
+      "role": "Fighter (ange)",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "5915155c081e1e2202020109c9593e63ed5aed79.png",
+      "name": "Sevarog",
+      "role": "Tank (golem)",
+      "status": "✅ Boss — vague 6"
+    },
+    {
+      "image": "7fff0dbfaa86e98b6bd096713949a6045918a5e7.png",
+      "name": "Steel",
+      "role": "Tank (chevalier-robot)",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "6afe43efc21101984c2ae40a43b4d06ad953693f.png",
+      "name": "Twinblast",
+      "role": "Carry à distance (2 pistolets)",
+      "status": "Non utilisé"
+    },
+    {
+      "image": "f47fa5c79778d2933a825bb042a96fdb49534420.png",
+      "name": "Wraith",
+      "role": "Sniper / à distance",
+      "status": "Non utilisé"
+    }
+  ],
+  "assets": [
+    {
+      "section": "QuadrapedCreatures — créatures quadrupèdes",
+      "items": [
+        {
+          "image": "7a4a9bf4dbbae3e4fb9eef7565e3325424ea81f6.png",
+          "name": "SK_BARGHEST",
+          "pack": "QuadrapedCreatures",
+          "note": "Loup-bête quadrupède"
+        },
+        {
+          "image": "b36cf41810565a635f9ada9141992d651bb4c5df.png",
+          "name": "SK_Centaur",
+          "pack": "QuadrapedCreatures",
+          "note": "Centaure (archer / épéiste)"
+        },
+        {
+          "image": "d1974e55e3173c01104bea29907ae0ed3a449fb1.png",
+          "name": "SK_Griffon",
+          "pack": "QuadrapedCreatures",
+          "note": "Griffon ailé"
+        },
+        {
+          "image": "b423a69eaa88e9e832175f98436c7fabca8c08ce.png",
+          "name": "SK_MOUNTAIN_DRAGON",
+          "pack": "QuadrapedCreatures",
+          "note": "Dragon des montagnes"
+        }
+      ]
+    },
+    {
+      "section": "CityofBrass_Enemies — morts-vivants arabo-fantastiques",
+      "items": [
+        {
+          "image": "bb423a83ddad3ddf43ba7b99e224741848a887d9.png",
+          "name": "Archer",
+          "pack": "CityofBrass_Enemies",
+          "note": "Squelette archer"
+        },
+        {
+          "image": "61b0aa052b7c91b2d83a53e6596ffb41c0cbaa68.png",
+          "name": "Charger",
+          "pack": "CityofBrass_Enemies",
+          "note": "Squelette chargeur"
+        },
+        {
+          "image": "06f77576c2e156d5d0cb8f4d9354e94d20d9d31c.png",
+          "name": "Corpse_Sword",
+          "pack": "CityofBrass_Enemies",
+          "note": "Mort-vivant à l'épée"
+        },
+        {
+          "image": "ca8f032a5cda4fd78ad25b4a9502c4c6fd645cfd.png",
+          "name": "Corpse_Basic",
+          "pack": "CityofBrass_Enemies",
+          "note": "Mort-vivant de base"
+        },
+        {
+          "image": "3643347a3e1d4af2aba2f43aa93b14d9d62b4f0b.png",
+          "name": "Corpse_Melee",
+          "pack": "CityofBrass_Enemies",
+          "note": "Mort-vivant mêlée"
+        },
+        {
+          "image": "22c2054fea7427448eb2816e3c19d51e0b41ed05.png",
+          "name": "CorpseSpear",
+          "pack": "CityofBrass_Enemies",
+          "note": "Mort-vivant à la lance"
+        },
+        {
+          "image": "78d17364f7c1f9ed9b882a5fe0c0c585863e544b.png",
+          "name": "Grenadier",
+          "pack": "CityofBrass_Enemies",
+          "note": "Lanceur de bombes"
+        },
+        {
+          "image": "59099cea7745557f2e70051e89a83d692dfb5259.png",
+          "name": "Hooker",
+          "pack": "CityofBrass_Enemies",
+          "note": "Ennemi à crochet"
+        },
+        {
+          "image": "69af0c8f6c6e9c3d51068619bbcfbb73bc6abdfc.png",
+          "name": "Hooker_Boss",
+          "pack": "CityofBrass_Enemies",
+          "note": "Boss à crochet"
+        },
+        {
+          "image": "b294ffc86259c9cb52d6057a6a4335edf8ca81b9.png",
+          "name": "Large",
+          "pack": "CityofBrass_Enemies",
+          "note": "Gros ennemi (tank)"
+        },
+        {
+          "image": "6721edc3d4c7814cb466ed237032b3a6a081edfd.png",
+          "name": "Large_Charger",
+          "pack": "CityofBrass_Enemies",
+          "note": "Gros chargeur"
+        },
+        {
+          "image": "d7405f334f68beac18ef85094599f347c4c8ebf3.png",
+          "name": "Large_Sword",
+          "pack": "CityofBrass_Enemies",
+          "note": "Gros épéiste"
+        },
+        {
+          "image": "5c6d38ea95682a2e7357f683a47d7f22e8ccb602.png",
+          "name": "Sploder",
+          "pack": "CityofBrass_Enemies",
+          "note": "Ennemi explosif"
+        },
+        {
+          "image": "d1638aa1ca12e622e5761f8686a9f46ec56db5a3.png",
+          "name": "enemy_Sword",
+          "pack": "CityofBrass_Enemies",
+          "note": "Squelette épéiste"
+        },
+        {
+          "image": "9033283a698ec13de626bdbaea65d4adad9a449e.png",
+          "name": "Wizard",
+          "pack": "CityofBrass_Enemies",
+          "note": "Mage / sorcier"
+        }
+      ]
+    },
+    {
+      "section": "ASCTeuthisan — créature alien",
+      "items": [
+        {
+          "image": "6f2a0e73f42b3fcd2891ef1a079ca6aca9c80e71.png",
+          "name": "Teuthisan",
+          "pack": "ASCTeuthisan",
+          "note": "Créature alien bipède (céphalopode)"
+        }
+      ]
+    }
+  ]
+}
