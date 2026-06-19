@@ -30,7 +30,7 @@ export default function Home() {
       </motion.div>
 
       <FadeIn className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
-        <QuickLink to="/catalogue/waves" icon={<Swords size={18} />} title="Niveaux & vagues" text="6 niveaux, tout le bestiaire" />
+        <QuickLink to="/catalogue/waves" icon={<Swords size={18} />} title="Niveaux & vagues" text="Chapitre 1 · 10 niveaux, 200 vagues" />
         <QuickLink to="/catalogue/assets" icon={<Skull size={18} />} title="Ennemis & Assets 3D" text="Héros Paragon, boss, golems, créatures" />
       </FadeIn>
 
