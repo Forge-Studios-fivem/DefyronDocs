@@ -14,24 +14,45 @@ Puis ouvrir http://localhost:5173.
 
 ## Structure
 
-- `src/data/content.ts` — contenu du game design document (modes de jeu, cartes, économie, etc.)
-- `src/data/catalogue.json` — données du catalogue d'assets (générées depuis le `.docx`)
-- `src/data/levels.json` — **progression générée** : Chapitre 1, 10 niveaux × 20 vagues, qui
-  répartit l'intégralité du bestiaire (`catalogue.json`) avec des stats (PV, vitesse, or, dégâts
-  cœur) extrapolées à partir des patterns observés dans les vagues originales du `.docx`, et des
-  boss qui apparaissent de plus en plus souvent à partir du niveau 7 jusqu'au rush du niveau 10.
-  Ce n'est pas une donnée extraite du document source (qui ne définissait que 6 vagues sur une
-  carte unique) mais une proposition de level design couvrant tous les ennemis catalogués.
-- `src/pages/` — pages : Accueil, sections de design, Niveaux & vagues, Ennemis & Assets 3D
-- `src/components/` — Sidebar, cartes avec effet spotlight, textes en dégradé, animations d'entrée
-- `public/assets/catalogue/` — images extraites du catalogue Word
+L'accueil est une carte mentale (mind map) : un nœud central "Defyron" relié à 5 branches —
+**Game Design**, **Ennemis**, **Tours**, **Maps**, **Chapitres** — cliquables pour naviguer.
 
-## Mettre à jour le contenu
+- `src/data/content.ts` — contenu du game design document (modes de jeu, cartes, économie, etc.),
+  lecture seule, affiché sous `/design/:id`.
+- `src/data/enemies.json`, `towers.json`, `maps.json`, `chapters.json` — **données de référence**
+  (seed). Au premier chargement, chaque collection est copiée dans `localStorage` ; toute édition
+  faite sur le site modifie ensuite la copie en `localStorage`, pas ces fichiers. `enemies.json`
+  est dérivé du catalogue Word original (58 créatures) ; `chapters.json` reprend la progression du
+  Chapitre 1 (10 niveaux × 20 vagues, boss de plus en plus fréquents) en référençant les ennemis
+  par id ; `towers.json`/`maps.json` sont des jeux de données de départ inventés (le document
+  source ne définissait pas de tours ni de cartes nommées).
+- `src/store/store.tsx` — contexte React + hooks `useCollection`/`useSingleton` qui gèrent la
+  lecture/écriture dans `localStorage` (clé `defyron:<nom>`) et exposent `editMode`.
+- `src/components/Editable.tsx` — `EditableText`/`EditableNumber`/`EditableSelect` : affichent du
+  texte simple normalement, et un champ modifiable quand `editMode` est actif.
+- `src/components/EditBar.tsx` — barre fixe en haut de chaque page avec le bouton **Éditer** et un
+  bouton **Réinitialiser** (revient aux données de seed, efface le `localStorage`).
+- `src/pages/Enemies.tsx`, `Towers.tsx`, `Maps.tsx` — grilles de cartes avec ajout/suppression/édition
+  en mode édition.
+- `src/pages/Chapters.tsx` — navigation à trois niveaux (chapitres → niveaux → vagues), avec
+  création/suppression de chapitres, niveaux, vagues, et ajout/retrait d'ennemis dans une vague
+  (avec comptage et marquage "boss").
+- `public/assets/catalogue/` — images extraites du catalogue Word, référencées par `enemies.json`.
 
-- Pour modifier le game design : éditer `src/data/content.ts`.
-- Pour mettre à jour le catalogue (nouvelles vagues/héros/assets) : ré-exporter le `.docx`, puis
-  régénérer `src/data/catalogue.json` en parcourant les tableaux du document et leurs images
-  intégrées (via `python-docx`), puis copier les images dans `public/assets/catalogue/`.
+## Édition du contenu en direct
+
+Le bouton **Éditer** (en haut de chaque page) active un mode où tous les champs texte/nombre
+deviennent modifiables sur place, avec des boutons pour créer ou supprimer un ennemi, une tour, une
+carte, un chapitre, un niveau ou une vague.
+
+⚠️ **Persistance locale uniquement** : les modifications sont sauvegardées dans le `localStorage`
+du navigateur. Elles survivent à un rechargement ou un redémarrage de la machine, mais restent
+propres à ce navigateur/appareil — elles ne sont pas partagées avec les autres visiteurs et ne
+sont pas commitées dans le repo. Le bouton **Réinitialiser** efface ces modifications locales et
+revient aux fichiers `src/data/*.json` du repo.
+
+Pour rendre un changement permanent et visible par tout le monde, il faut l'appliquer directement
+dans les fichiers `src/data/*.json` puis commit/push.
 
 ## Build
 

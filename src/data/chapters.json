@@ -1,0 +1,3590 @@
+[
+  {
+    "id": "chapitre-1",
+    "number": 1,
+    "name": "Chapitre 1",
+    "mapId": "vallee-de-laube",
+    "levels": [
+      {
+        "id": "l1",
+        "number": 1,
+        "name": "Niveau 1 — Première ligne",
+        "waves": [
+          {
+            "id": "l1-w1",
+            "title": "Vague 1",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 7,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 7,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w2",
+            "title": "Vague 2",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 9,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 9,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w3",
+            "title": "Vague 3",
+            "enemies": [
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 9,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w4",
+            "title": "Vague 4",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 6,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w5",
+            "title": "Vague 5",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 7,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 9,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w6",
+            "title": "Vague 6",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 8,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 10,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w7",
+            "title": "Vague 7",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 7,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w8",
+            "title": "Vague 8",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 10,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 8,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w9",
+            "title": "Vague 9",
+            "enemies": [
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 7,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 10,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w10",
+            "title": "Vague 10",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 10,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 7,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 9,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w11",
+            "title": "Vague 11",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 7,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 10,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w12",
+            "title": "Vague 12",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 10,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 6,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w13",
+            "title": "Vague 13",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 10,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 8,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w14",
+            "title": "Vague 14",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 7,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w15",
+            "title": "Vague 15",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 10,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 10,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w16",
+            "title": "Vague 16",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 7,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 6,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w17",
+            "title": "Vague 17",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 8,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 10,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w18",
+            "title": "Vague 18",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 9,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 8,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 10,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w19",
+            "title": "Vague 19",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 10,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l1-w20",
+            "title": "Vague 20 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 9,
+                "isBoss": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l2",
+        "number": 2,
+        "name": "Niveau 2 — Renforts en armes",
+        "waves": [
+          {
+            "id": "l2-w1",
+            "title": "Vague 1",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 9,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 6,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w2",
+            "title": "Vague 2",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-white",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w3",
+            "title": "Vague 3",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 10,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 10,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w4",
+            "title": "Vague 4",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 7,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-green",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 6,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w5",
+            "title": "Vague 5",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-siege-dawn",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-red",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w6",
+            "title": "Vague 6",
+            "enemies": [
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 8,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 9,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w7",
+            "title": "Vague 7",
+            "enemies": [
+              {
+                "enemyId": "buff-blue",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 8,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w8",
+            "title": "Vague 8",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-siege-dusk",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "prime-helix",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w9",
+            "title": "Vague 9",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dawn",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w10",
+            "title": "Vague 10",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 7,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 9,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w11",
+            "title": "Vague 11",
+            "enemies": [
+              {
+                "enemyId": "buff-red",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 8,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w12",
+            "title": "Vague 12",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 8,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-blue",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 10,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w13",
+            "title": "Vague 13",
+            "enemies": [
+              {
+                "enemyId": "prime-helix",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 6,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w14",
+            "title": "Vague 14",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 10,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 8,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w15",
+            "title": "Vague 15",
+            "enemies": [
+              {
+                "enemyId": "buff-green",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 8,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w16",
+            "title": "Vague 16 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "minion-lane-siege-dusk",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w17",
+            "title": "Vague 17",
+            "enemies": [
+              {
+                "enemyId": "buff-white",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 10,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 10,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w18",
+            "title": "Vague 18",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-siege-dawn",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-blue",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-red",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w19",
+            "title": "Vague 19",
+            "enemies": [
+              {
+                "enemyId": "buff-green",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "prime-helix",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l2-w20",
+            "title": "Vague 20 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "buff-white",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 9,
+                "isBoss": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l3",
+        "number": 3,
+        "name": "Niveau 3 — Ligne de siège",
+        "waves": [
+          {
+            "id": "l3-w1",
+            "title": "Vague 1",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-siege-dusk",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dawn",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w2",
+            "title": "Vague 2",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 9,
+                "isBoss": false
+              },
+              {
+                "enemyId": "prime-helix",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-blue",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w3",
+            "title": "Vague 3",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-white",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w4",
+            "title": "Vague 4",
+            "enemies": [
+              {
+                "enemyId": "buff-red",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dusk",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w5",
+            "title": "Vague 5",
+            "enemies": [
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 7,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-green",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dawn",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w6",
+            "title": "Vague 6",
+            "enemies": [
+              {
+                "enemyId": "buff-red",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 10,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-white",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w7",
+            "title": "Vague 7",
+            "enemies": [
+              {
+                "enemyId": "prime-helix",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dusk",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w8",
+            "title": "Vague 8",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 7,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-melee-dusk",
+                "count": 9,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w9",
+            "title": "Vague 9",
+            "enemies": [
+              {
+                "enemyId": "buff-green",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-blue",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-white",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w10",
+            "title": "Vague 10",
+            "enemies": [
+              {
+                "enemyId": "buff-green",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dawn",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w11",
+            "title": "Vague 11",
+            "enemies": [
+              {
+                "enemyId": "prime-helix",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dusk",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w12",
+            "title": "Vague 12",
+            "enemies": [
+              {
+                "enemyId": "buff-red",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-blue",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w13",
+            "title": "Vague 13",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-melee-dawn",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "prime-helix",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w14",
+            "title": "Vague 14 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "minion-lane-siege-dawn",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w15",
+            "title": "Vague 15",
+            "enemies": [
+              {
+                "enemyId": "buff-blue",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-white",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w16",
+            "title": "Vague 16",
+            "enemies": [
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 7,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-green",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w17",
+            "title": "Vague 17",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 10,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-red",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dusk",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w18",
+            "title": "Vague 18",
+            "enemies": [
+              {
+                "enemyId": "prime-helix",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-red",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dusk",
+                "count": 8,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w19",
+            "title": "Vague 19",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-siege-dawn",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-melee-white-camp",
+                "count": 6,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-ranged-dawn",
+                "count": 8,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l3-w20",
+            "title": "Vague 20 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "minion-lane-siege-dusk",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l4",
+        "number": 4,
+        "name": "Niveau 4 — Golems en marche",
+        "waves": [
+          {
+            "id": "l4-w1",
+            "title": "Vague 1",
+            "enemies": [
+              {
+                "enemyId": "hooker",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sploder",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "grenadier",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w2",
+            "title": "Vague 2",
+            "enemies": [
+              {
+                "enemyId": "buff-white",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-blue",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w3",
+            "title": "Vague 3",
+            "enemies": [
+              {
+                "enemyId": "buff-green",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dusk",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "corpse-melee",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w4",
+            "title": "Vague 4",
+            "enemies": [
+              {
+                "enemyId": "enemy-sword",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dawn",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w5",
+            "title": "Vague 5",
+            "enemies": [
+              {
+                "enemyId": "wizard",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-white",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w6",
+            "title": "Vague 6",
+            "enemies": [
+              {
+                "enemyId": "large",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-blue",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w7",
+            "title": "Vague 7",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-super-dusk",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sk-griffon",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w8",
+            "title": "Vague 8",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-super-dawn",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-red",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "corpse-sword",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w9",
+            "title": "Vague 9",
+            "enemies": [
+              {
+                "enemyId": "prime-helix",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-green",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w10",
+            "title": "Vague 10",
+            "enemies": [
+              {
+                "enemyId": "buff-black",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "corpse-basic",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w11",
+            "title": "Vague 11",
+            "enemies": [
+              {
+                "enemyId": "buff-white",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "large-charger",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sk-barghest",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w12",
+            "title": "Vague 12 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "charger",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w13",
+            "title": "Vague 13",
+            "enemies": [
+              {
+                "enemyId": "sk-centaur",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "archer",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w14",
+            "title": "Vague 14",
+            "enemies": [
+              {
+                "enemyId": "hooker-boss",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-blue",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w15",
+            "title": "Vague 15",
+            "enemies": [
+              {
+                "enemyId": "buff-red",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "corpsespear",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w16",
+            "title": "Vague 16",
+            "enemies": [
+              {
+                "enemyId": "prime-helix",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-green",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dawn",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w17",
+            "title": "Vague 17",
+            "enemies": [
+              {
+                "enemyId": "large-sword",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sk-barghest",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-super-dusk",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w18",
+            "title": "Vague 18",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-siege-dusk",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "large-sword",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "large-charger",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w19",
+            "title": "Vague 19",
+            "enemies": [
+              {
+                "enemyId": "corpse-basic",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "large",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l4-w20",
+            "title": "Vague 20 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "buff-blue",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-white",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l5",
+        "number": 5,
+        "name": "Niveau 5 — Bestiaire sauvage",
+        "waves": [
+          {
+            "id": "l5-w1",
+            "title": "Vague 1",
+            "enemies": [
+              {
+                "enemyId": "grenadier",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dusk",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "archer",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w2",
+            "title": "Vague 2",
+            "enemies": [
+              {
+                "enemyId": "buff-red",
+                "count": 5,
+                "isBoss": false
+              },
+              {
+                "enemyId": "prime-helix",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w3",
+            "title": "Vague 3",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-super-dawn",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sk-griffon",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w4",
+            "title": "Vague 4",
+            "enemies": [
+              {
+                "enemyId": "hooker",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "enemy-sword",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w5",
+            "title": "Vague 5",
+            "enemies": [
+              {
+                "enemyId": "corpsespear",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-black",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w6",
+            "title": "Vague 6",
+            "enemies": [
+              {
+                "enemyId": "charger",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "hooker-boss",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w7",
+            "title": "Vague 7",
+            "enemies": [
+              {
+                "enemyId": "corpse-sword",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "wizard",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sploder",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w8",
+            "title": "Vague 8",
+            "enemies": [
+              {
+                "enemyId": "corpse-melee",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sk-centaur",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w9",
+            "title": "Vague 9",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-super-dawn",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "grenadier",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w10",
+            "title": "Vague 10 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "corpse-basic",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w11",
+            "title": "Vague 11",
+            "enemies": [
+              {
+                "enemyId": "hooker-boss",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "large-charger",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w12",
+            "title": "Vague 12",
+            "enemies": [
+              {
+                "enemyId": "buff-green",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sploder",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w13",
+            "title": "Vague 13",
+            "enemies": [
+              {
+                "enemyId": "hooker",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sk-centaur",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w14",
+            "title": "Vague 14",
+            "enemies": [
+              {
+                "enemyId": "charger",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dawn",
+                "count": 4,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w15",
+            "title": "Vague 15",
+            "enemies": [
+              {
+                "enemyId": "sk-griffon",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-green",
+                "count": 4,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sk-barghest",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w16",
+            "title": "Vague 16",
+            "enemies": [
+              {
+                "enemyId": "large",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-blue",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-black",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w17",
+            "title": "Vague 17",
+            "enemies": [
+              {
+                "enemyId": "corpse-melee",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "large-sword",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "archer",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w18",
+            "title": "Vague 18",
+            "enemies": [
+              {
+                "enemyId": "wizard",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "corpse-sword",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w19",
+            "title": "Vague 19",
+            "enemies": [
+              {
+                "enemyId": "corpsespear",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-super-dusk",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-siege-dusk",
+                "count": 5,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l5-w20",
+            "title": "Vague 20 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "enemy-sword",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l6",
+        "number": 6,
+        "name": "Niveau 6 — Terres maudites",
+        "waves": [
+          {
+            "id": "l6-w1",
+            "title": "Vague 1",
+            "enemies": [
+              {
+                "enemyId": "rampage",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "wraith",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w2",
+            "title": "Vague 2",
+            "enemies": [
+              {
+                "enemyId": "feng-mao",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "morigesh",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w3",
+            "title": "Vague 3",
+            "enemies": [
+              {
+                "enemyId": "howitzer",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "hooker",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "corpsespear",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w4",
+            "title": "Vague 4",
+            "enemies": [
+              {
+                "enemyId": "enemy-sword",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "crunch",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w5",
+            "title": "Vague 5",
+            "enemies": [
+              {
+                "enemyId": "kallari",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "countess",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w6",
+            "title": "Vague 6",
+            "enemies": [
+              {
+                "enemyId": "grenadier",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sk-centaur",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "large",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w7",
+            "title": "Vague 7",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-super-dawn",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "minion-lane-super-dusk",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "archer",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w8",
+            "title": "Vague 8 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "hooker-boss",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "twinblast",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w9",
+            "title": "Vague 9",
+            "enemies": [
+              {
+                "enemyId": "corpse-basic",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "hooker-boss",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w10",
+            "title": "Vague 10",
+            "enemies": [
+              {
+                "enemyId": "corpse-melee",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sk-griffon",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w11",
+            "title": "Vague 11",
+            "enemies": [
+              {
+                "enemyId": "revenant",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "large-sword",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w12",
+            "title": "Vague 12",
+            "enemies": [
+              {
+                "enemyId": "corpse-sword",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "large-charger",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w13",
+            "title": "Vague 13",
+            "enemies": [
+              {
+                "enemyId": "teuthisan",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "boris",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sploder",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w14",
+            "title": "Vague 14",
+            "enemies": [
+              {
+                "enemyId": "steel",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "fey",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w15",
+            "title": "Vague 15",
+            "enemies": [
+              {
+                "enemyId": "serath",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "drongo",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w16",
+            "title": "Vague 16 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "sk-mountain-dragon",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w17",
+            "title": "Vague 17",
+            "enemies": [
+              {
+                "enemyId": "gideon",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "narbash",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "riktor",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w18",
+            "title": "Vague 18",
+            "enemies": [
+              {
+                "enemyId": "riktor",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "teuthisan",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w19",
+            "title": "Vague 19",
+            "enemies": [
+              {
+                "enemyId": "hooker-boss",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "howitzer",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l6-w20",
+            "title": "Vague 20 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "boris",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l7",
+        "number": 7,
+        "name": "Niveau 7 — Éclaireurs d'élite",
+        "waves": [
+          {
+            "id": "l7-w1",
+            "title": "Vague 1",
+            "enemies": [
+              {
+                "enemyId": "charger",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "steel",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w2",
+            "title": "Vague 2",
+            "enemies": [
+              {
+                "enemyId": "crunch",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "serath",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w3",
+            "title": "Vague 3",
+            "enemies": [
+              {
+                "enemyId": "sk-mountain-dragon",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "rampage",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w4",
+            "title": "Vague 4",
+            "enemies": [
+              {
+                "enemyId": "morigesh",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "kallari",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "gideon",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w5",
+            "title": "Vague 5",
+            "enemies": [
+              {
+                "enemyId": "sk-barghest",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "wizard",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "feng-mao",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w6",
+            "title": "Vague 6 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "revenant",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w7",
+            "title": "Vague 7",
+            "enemies": [
+              {
+                "enemyId": "buff-black",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sk-griffon",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w8",
+            "title": "Vague 8",
+            "enemies": [
+              {
+                "enemyId": "corpse-melee",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "drongo",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w9",
+            "title": "Vague 9",
+            "enemies": [
+              {
+                "enemyId": "wraith",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "fey",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w10",
+            "title": "Vague 10",
+            "enemies": [
+              {
+                "enemyId": "countess",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "narbash",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w11",
+            "title": "Vague 11",
+            "enemies": [
+              {
+                "enemyId": "twinblast",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "hooker",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w12",
+            "title": "Vague 12 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "twinblast",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w13",
+            "title": "Vague 13",
+            "enemies": [
+              {
+                "enemyId": "gideon",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "crunch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w14",
+            "title": "Vague 14",
+            "enemies": [
+              {
+                "enemyId": "steel",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sk-mountain-dragon",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "howitzer",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w15",
+            "title": "Vague 15",
+            "enemies": [
+              {
+                "enemyId": "morigesh",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "hooker-boss",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "rampage",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w16",
+            "title": "Vague 16",
+            "enemies": [
+              {
+                "enemyId": "feng-mao",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sploder",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "serath",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w17",
+            "title": "Vague 17",
+            "enemies": [
+              {
+                "enemyId": "teuthisan",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "archer",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w18",
+            "title": "Vague 18 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "drongo",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w19",
+            "title": "Vague 19",
+            "enemies": [
+              {
+                "enemyId": "enemy-sword",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "fey",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l7-w20",
+            "title": "Vague 20 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "narbash",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l8",
+        "number": 8,
+        "name": "Niveau 8 — Champions déchus",
+        "waves": [
+          {
+            "id": "l8-w1",
+            "title": "Vague 1",
+            "enemies": [
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "large",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w2",
+            "title": "Vague 2",
+            "enemies": [
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "revenant",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "wraith",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w3",
+            "title": "Vague 3",
+            "enemies": [
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w4",
+            "title": "Vague 4 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "sk-centaur",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "boris",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w5",
+            "title": "Vague 5",
+            "enemies": [
+              {
+                "enemyId": "kallari",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w6",
+            "title": "Vague 6",
+            "enemies": [
+              {
+                "enemyId": "riktor",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "countess",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w7",
+            "title": "Vague 7",
+            "enemies": [
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "crunch",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w8",
+            "title": "Vague 8 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "buff-black",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w9",
+            "title": "Vague 9",
+            "enemies": [
+              {
+                "enemyId": "gideon",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w10",
+            "title": "Vague 10",
+            "enemies": [
+              {
+                "enemyId": "serath",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "howitzer",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w11",
+            "title": "Vague 11",
+            "enemies": [
+              {
+                "enemyId": "drongo",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "corpse-sword",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w12",
+            "title": "Vague 12 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "fey",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "large-charger",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w13",
+            "title": "Vague 13",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-super-dawn",
+                "count": 3,
+                "isBoss": false
+              },
+              {
+                "enemyId": "grenadier",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w14",
+            "title": "Vague 14",
+            "enemies": [
+              {
+                "enemyId": "minion-lane-super-dusk",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "steel",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w15",
+            "title": "Vague 15",
+            "enemies": [
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "morigesh",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w16",
+            "title": "Vague 16 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "narbash",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w17",
+            "title": "Vague 17",
+            "enemies": [
+              {
+                "enemyId": "rampage",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "twinblast",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w18",
+            "title": "Vague 18",
+            "enemies": [
+              {
+                "enemyId": "countess",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w19",
+            "title": "Vague 19",
+            "enemies": [
+              {
+                "enemyId": "riktor",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "corpse-basic",
+                "count": 3,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l8-w20",
+            "title": "Vague 20 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "teuthisan",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l9",
+        "number": 9,
+        "name": "Niveau 9 — Avant-poste des boss",
+        "waves": [
+          {
+            "id": "l9-w1",
+            "title": "Vague 1",
+            "enemies": [
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "boris",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w2",
+            "title": "Vague 2",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w3",
+            "title": "Vague 3 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w4",
+            "title": "Vague 4",
+            "enemies": [
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w5",
+            "title": "Vague 5",
+            "enemies": [
+              {
+                "enemyId": "sk-mountain-dragon",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w6",
+            "title": "Vague 6 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w7",
+            "title": "Vague 7",
+            "enemies": [
+              {
+                "enemyId": "wraith",
+                "count": 2,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w8",
+            "title": "Vague 8",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w9",
+            "title": "Vague 9 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "hooker-boss",
+                "count": 2,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w10",
+            "title": "Vague 10",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "feng-mao",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "revenant",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w11",
+            "title": "Vague 11",
+            "enemies": [
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w12",
+            "title": "Vague 12 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w13",
+            "title": "Vague 13",
+            "enemies": [
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w14",
+            "title": "Vague 14",
+            "enemies": [
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "kallari",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w15",
+            "title": "Vague 15 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w16",
+            "title": "Vague 16",
+            "enemies": [
+              {
+                "enemyId": "drongo",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w17",
+            "title": "Vague 17",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w18",
+            "title": "Vague 18 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w19",
+            "title": "Vague 19",
+            "enemies": [
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l9-w20",
+            "title": "Vague 20 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "l10",
+        "number": 10,
+        "name": "Niveau 10 — Rush des boss majeurs",
+        "waves": [
+          {
+            "id": "l10-w1",
+            "title": "Vague 1",
+            "enemies": [
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w2",
+            "title": "Vague 2 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w3",
+            "title": "Vague 3",
+            "enemies": [
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w4",
+            "title": "Vague 4 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w5",
+            "title": "Vague 5",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w6",
+            "title": "Vague 6 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w7",
+            "title": "Vague 7",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w8",
+            "title": "Vague 8 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w9",
+            "title": "Vague 9",
+            "enemies": [
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w10",
+            "title": "Vague 10 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w11",
+            "title": "Vague 11",
+            "enemies": [
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w12",
+            "title": "Vague 12 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w13",
+            "title": "Vague 13",
+            "enemies": [
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w14",
+            "title": "Vague 14 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w15",
+            "title": "Vague 15",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w16",
+            "title": "Vague 16 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w17",
+            "title": "Vague 17",
+            "enemies": [
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w18",
+            "title": "Vague 18 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w19",
+            "title": "Vague 19",
+            "enemies": [
+              {
+                "enemyId": "khaimera",
+                "count": 1,
+                "isBoss": false
+              },
+              {
+                "enemyId": "iggy-scorch",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          },
+          {
+            "id": "l10-w20",
+            "title": "Vague 20 — BOSS",
+            "enemies": [
+              {
+                "enemyId": "iggyscorch",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "sevarog",
+                "count": 1,
+                "isBoss": true
+              },
+              {
+                "enemyId": "grux",
+                "count": 1,
+                "isBoss": false
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

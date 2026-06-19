@@ -3,9 +3,11 @@ import { useRef, type ReactNode } from 'react';
 export default function SpotlightCard({
   children,
   className = '',
+  onClick,
 }: {
   children: ReactNode;
   className?: string;
+  onClick?: () => void;
 }) {
   const ref = useRef<HTMLDivElement>(null);
 
@@ -21,6 +23,7 @@ export default function SpotlightCard({
     <div
       ref={ref}
       onMouseMove={handleMouseMove}
+      onClick={onClick}
       className={`card-spotlight rounded-2xl border border-[var(--border)] bg-[var(--panel)] p-5 transition-colors hover:border-[var(--accent)]/40 ${className}`}
     >
       {children}

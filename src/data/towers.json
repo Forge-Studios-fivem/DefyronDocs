@@ -1,0 +1,72 @@
+[
+  {
+    "id": "garde-proximite",
+    "name": "Garde de proximité",
+    "type": "proximite",
+    "damage": 18,
+    "cost": 50,
+    "range": 2,
+    "attackSpeed": 1.2,
+    "description": "Attaque les ennemis proches au corps-à-corps. Bon rapport coût/dégâts en début de partie."
+  },
+  {
+    "id": "archer-poste",
+    "name": "Archer posté",
+    "type": "distance",
+    "damage": 14,
+    "cost": 70,
+    "range": 5,
+    "attackSpeed": 0.9,
+    "description": "Tire depuis l'arrière, hors de portée de la plupart des ennemis de mêlée."
+  },
+  {
+    "id": "chevalier-mobile",
+    "name": "Chevalier mobile",
+    "type": "mobile",
+    "damage": 22,
+    "cost": 90,
+    "range": 1,
+    "attackSpeed": 1.0,
+    "description": "Se déplace sur la piste ennemie pour intercepter les vagues avant qu'elles n'avancent."
+  },
+  {
+    "id": "tour-de-glace",
+    "name": "Tour de glace",
+    "type": "proximite",
+    "damage": 10,
+    "cost": 80,
+    "range": 2,
+    "attackSpeed": 1.0,
+    "description": "Dégâts plus faibles mais ralentit les ennemis touchés."
+  },
+  {
+    "id": "tourelle-longue-portee",
+    "name": "Tourelle longue portée",
+    "type": "distance",
+    "damage": 26,
+    "cost": 130,
+    "range": 7,
+    "attackSpeed": 0.6,
+    "description": "Forts dégâts par tir mais cadence lente, idéale contre les cibles isolées et les boss."
+  },
+  {
+    "id": "belier-roulant",
+    "name": "Bélier roulant",
+    "type": "mobile",
+    "damage": 30,
+    "cost": 110,
+    "range": 1,
+    "attackSpeed": 0.8,
+    "description": "Unité mobile lourde qui fonce dans les lignes ennemies, efficace contre les groupes compacts."
+  },
+  {
+    "id": "tour-anti-aerien",
+    "name": "Tour anti-aérienne",
+    "type": "distance",
+    "damage": 20,
+    "cost": 100,
+    "range": 6,
+    "attackSpeed": 1.1,
+    "description": "Spécialisée contre les ennemis aériens (griffons, dragons, créatures volantes)."
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "id": "vallee-de-laube",
+    "name": "Vallée de l'Aube",
+    "chapterId": "chapitre-1",
+    "description": "Carte principale du Chapitre 1 — une vallée verdoyante traversée par une seule piste menant au cœur à défendre.",
+    "lanes": 1,
+    "image": null
+  }
+]

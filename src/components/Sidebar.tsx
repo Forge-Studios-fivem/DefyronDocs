@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { sections } from '../data/content';
-import { sectionIcons, pageIcons } from '../data/icons';
-import { ScrollText, Menu, X } from 'lucide-react';
+import { sectionIcons } from '../data/icons';
+import { ScrollText, Menu, X, Skull, Castle, MapIcon, BookOpen } from 'lucide-react';
 import { useState } from 'react';
 
 const navLinkClass = ({ isActive }: { isActive: boolean }) =>
@@ -31,13 +31,19 @@ function NavContent({ onNavigate }: { onNavigate?: () => void }) {
       })}
 
       <div className="mt-4 mb-1 px-3 text-[11px] font-semibold uppercase tracking-wider text-[var(--text)]/50">
-        Catalogue
+        Bestiaire &amp; terrain
       </div>
-      <NavLink to="/catalogue/waves" className={navLinkClass}>
-        <pageIcons.waves size={16} /> Niveaux &amp; vagues
+      <NavLink to="/enemies" className={navLinkClass}>
+        <Skull size={16} /> Ennemis
       </NavLink>
-      <NavLink to="/catalogue/assets" className={navLinkClass}>
-        <pageIcons.assets size={16} /> Ennemis &amp; Assets 3D
+      <NavLink to="/towers" className={navLinkClass}>
+        <Castle size={16} /> Tours
+      </NavLink>
+      <NavLink to="/maps" className={navLinkClass}>
+        <MapIcon size={16} /> Maps
+      </NavLink>
+      <NavLink to="/chapters" className={navLinkClass}>
+        <BookOpen size={16} /> Chapitres
       </NavLink>
     </nav>
   );
