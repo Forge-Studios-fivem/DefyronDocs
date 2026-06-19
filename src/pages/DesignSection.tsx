@@ -1,5 +1,6 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { sections, type Block } from '../data/content';
+import { sectionIcons } from '../data/icons';
 import FadeIn from '../components/FadeIn';
 import SpotlightCard from '../components/SpotlightCard';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
@@ -11,11 +12,16 @@ export default function DesignSection() {
   const section = sections[idx];
   const prev = sections[idx - 1];
   const next = sections[idx + 1];
+  const Icon = sectionIcons[section.id];
+  const PrevIcon = prev ? sectionIcons[prev.id] : null;
+  const NextIcon = next ? sectionIcons[next.id] : null;
 
   return (
     <div>
       <FadeIn>
-        <div className="text-5xl mb-3">{section.emoji}</div>
+        <div className="flex items-center justify-center h-14 w-14 rounded-2xl bg-[var(--accent)]/10 text-[var(--accent-2)] mb-4">
+          <Icon size={28} />
+        </div>
         <h1 className="text-3xl md:text-4xl font-extrabold text-[var(--text-h)] mb-8">{section.title}</h1>
       </FadeIn>
 
@@ -28,14 +34,14 @@ export default function DesignSection() {
       </div>
 
       <div className="mt-14 flex items-center justify-between border-t border-[var(--border)] pt-6 text-sm">
-        {prev ? (
-          <Link to={`/design/${prev.id}`} className="flex items-center gap-1 text-[var(--text)] hover:text-[var(--accent-2)] transition-colors">
-            <ChevronLeft size={16} /> {prev.emoji} {prev.title}
+        {prev && PrevIcon ? (
+          <Link to={`/design/${prev.id}`} className="flex items-center gap-1.5 text-[var(--text)] hover:text-[var(--accent-2)] transition-colors">
+            <ChevronLeft size={16} /> <PrevIcon size={14} /> {prev.title}
           </Link>
         ) : <span />}
-        {next ? (
-          <Link to={`/design/${next.id}`} className="flex items-center gap-1 text-[var(--text)] hover:text-[var(--accent-2)] transition-colors">
-            {next.emoji} {next.title} <ChevronRight size={16} />
+        {next && NextIcon ? (
+          <Link to={`/design/${next.id}`} className="flex items-center gap-1.5 text-[var(--text)] hover:text-[var(--accent-2)] transition-colors">
+            <NextIcon size={14} /> {next.title} <ChevronRight size={16} />
           </Link>
         ) : <span />}
       </div>

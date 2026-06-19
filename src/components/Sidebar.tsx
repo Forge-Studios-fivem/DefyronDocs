@@ -1,13 +1,14 @@
 import { NavLink } from 'react-router-dom';
 import { sections } from '../data/content';
-import { Swords, Users, ScrollText, Boxes, Menu, X } from 'lucide-react';
+import { sectionIcons, pageIcons } from '../data/icons';
+import { ScrollText, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
 const navLinkClass = ({ isActive }: { isActive: boolean }) =>
   `flex items-center gap-2 rounded-lg px-3 py-2 text-sm transition-colors ${
     isActive
       ? 'bg-[var(--accent)]/12 text-[var(--accent-2)] font-medium'
-      : 'text-[var(--text)] hover:bg-black/4 hover:text-[var(--text-h)]'
+      : 'text-[var(--text)] hover:bg-white/5 hover:text-[var(--text-h)]'
   }`;
 
 function NavContent({ onNavigate }: { onNavigate?: () => void }) {
@@ -20,23 +21,26 @@ function NavContent({ onNavigate }: { onNavigate?: () => void }) {
       <div className="mt-4 mb-1 px-3 text-[11px] font-semibold uppercase tracking-wider text-[var(--text)]/50">
         Game Design
       </div>
-      {sections.map((s) => (
-        <NavLink key={s.id} to={`/design/${s.id}`} className={navLinkClass}>
-          <span>{s.emoji}</span> {s.title}
-        </NavLink>
-      ))}
+      {sections.map((s) => {
+        const Icon = sectionIcons[s.id];
+        return (
+          <NavLink key={s.id} to={`/design/${s.id}`} className={navLinkClass}>
+            <Icon size={16} /> {s.title}
+          </NavLink>
+        );
+      })}
 
       <div className="mt-4 mb-1 px-3 text-[11px] font-semibold uppercase tracking-wider text-[var(--text)]/50">
         Catalogue
       </div>
       <NavLink to="/catalogue/waves" className={navLinkClass}>
-        <Swords size={16} /> Vagues d'ennemis
+        <pageIcons.waves size={16} /> Vagues d'ennemis
       </NavLink>
       <NavLink to="/catalogue/heroes" className={navLinkClass}>
-        <Users size={16} /> Héros (Paragon)
+        <pageIcons.heroes size={16} /> Héros (Paragon)
       </NavLink>
       <NavLink to="/catalogue/assets" className={navLinkClass}>
-        <Boxes size={16} /> Assets 3D
+        <pageIcons.assets size={16} /> Assets 3D
       </NavLink>
     </nav>
   );

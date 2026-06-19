@@ -1,6 +1,8 @@
 import catalogue from '../data/catalogue.json';
 import FadeIn from '../components/FadeIn';
 import SpotlightCard from '../components/SpotlightCard';
+import { catalogueAsset } from '../lib/asset';
+import { pageIcons } from '../data/icons';
 
 type Item = { image: string | null; name: string; note: string; category?: string; pack?: string };
 type SectionGroup = { section: string; items: Item[] };
@@ -14,7 +16,9 @@ export default function Assets() {
   return (
     <div>
       <FadeIn>
-        <div className="text-5xl mb-3">🦴</div>
+        <div className="flex items-center justify-center h-14 w-14 rounded-2xl bg-[var(--accent)]/10 text-[var(--accent-2)] mb-4">
+          <pageIcons.assets size={28} />
+        </div>
         <h1 className="text-3xl md:text-4xl font-extrabold text-[var(--text-h)] mb-2">Assets 3D</h1>
         <p className="text-[var(--text)] mb-10">
           Bestiaire, boss et packs de créatures référencés pour la production (Paragon, City of Brass, etc.).
@@ -32,7 +36,7 @@ export default function Assets() {
                 <SpotlightCard key={j} className="h-full">
                   {it.image && (
                     <img
-                      src={`/assets/catalogue/${it.image}`}
+                      src={catalogueAsset(it.image)}
                       alt={it.name}
                       className="w-full h-24 object-cover rounded-lg mb-2 bg-[var(--panel-soft)] border border-[var(--border)]"
                     />

@@ -1,6 +1,8 @@
 import catalogue from '../data/catalogue.json';
 import FadeIn from '../components/FadeIn';
 import SpotlightCard from '../components/SpotlightCard';
+import { catalogueAsset } from '../lib/asset';
+import { pageIcons } from '../data/icons';
 
 type Enemy = {
   image: string | null;
@@ -24,7 +26,9 @@ export default function Waves() {
   return (
     <div>
       <FadeIn>
-        <div className="text-5xl mb-3">🌊</div>
+        <div className="flex items-center justify-center h-14 w-14 rounded-2xl bg-[var(--accent)]/10 text-[var(--accent-2)] mb-4">
+          <pageIcons.waves size={28} />
+        </div>
         <h1 className="text-3xl md:text-4xl font-extrabold text-[var(--text-h)] mb-2">Vagues d'ennemis</h1>
         <p className="text-[var(--text)] mb-10">
           Catalogue des vagues du mode défense — composition, statistiques et timing d'apparition.
@@ -51,7 +55,7 @@ export default function Waves() {
                   <SpotlightCard key={j} className="flex gap-3 items-center">
                     {e.image && (
                       <img
-                        src={`/assets/catalogue/${e.image}`}
+                        src={catalogueAsset(e.image)}
                         alt={e.name}
                         className="h-14 w-14 rounded-lg object-cover bg-[var(--panel-soft)] border border-[var(--border)] shrink-0"
                       />

@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { sections } from '../data/content';
+import { sectionIcons } from '../data/icons';
 import SpotlightCard from '../components/SpotlightCard';
 import GradientText from '../components/GradientText';
 import FadeIn from '../components/FadeIn';
@@ -40,12 +41,16 @@ export default function Home() {
         </h2>
       </FadeIn>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-        {sections.map((s, i) => (
+        {sections.map((s, i) => {
+          const Icon = sectionIcons[s.id];
+          return (
           <FadeIn key={s.id} delay={0.05 * i}>
             <Link to={`/design/${s.id}`}>
               <SpotlightCard className="h-full group">
                 <div className="flex items-start gap-3">
-                  <div className="text-2xl">{s.emoji}</div>
+                  <div className="flex items-center justify-center h-10 w-10 rounded-xl bg-[var(--accent)]/10 text-[var(--accent-2)] shrink-0">
+                    <Icon size={20} />
+                  </div>
                   <div className="flex-1">
                     <div className="font-semibold text-[var(--text-h)] flex items-center gap-1.5">
                       {s.title}
@@ -59,7 +64,8 @@ export default function Home() {
               </SpotlightCard>
             </Link>
           </FadeIn>
-        ))}
+          );
+        })}
       </div>
     </div>
   );

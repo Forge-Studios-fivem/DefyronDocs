@@ -1,7 +1,6 @@
 export type Section = {
   id: string;
   title: string;
-  emoji: string;
   blocks: Block[];
 };
 
@@ -15,7 +14,6 @@ export const sections: Section[] = [
   {
     id: 'overview',
     title: 'Vue d\'ensemble',
-    emoji: '🎮',
     blocks: [
       {
         type: 'p',
@@ -30,7 +28,6 @@ export const sections: Section[] = [
   {
     id: 'modes',
     title: 'Modes de jeu',
-    emoji: '🎯',
     blocks: [
       { type: 'h2', text: 'Mode Histoire' },
       {
@@ -83,7 +80,6 @@ export const sections: Section[] = [
   {
     id: 'cards',
     title: 'Système de cartes',
-    emoji: '🃏',
     blocks: [
       { type: 'h2', text: 'Types de cartes' },
       {
@@ -109,7 +105,6 @@ export const sections: Section[] = [
   {
     id: 'economy',
     title: 'Économie',
-    emoji: '⚔️',
     blocks: [
       { type: 'h2', text: 'Pièces' },
       {
@@ -129,7 +124,6 @@ export const sections: Section[] = [
   {
     id: 'characters',
     title: 'Personnages',
-    emoji: '👤',
     blocks: [
       { type: 'h2', text: 'Déblocage' },
       { type: 'p', text: 'Les personnages sont achetés avec les étoiles gagnées en mode Histoire.' },
@@ -152,7 +146,6 @@ export const sections: Section[] = [
   {
     id: 'progression',
     title: 'Progression',
-    emoji: '📈',
     blocks: [
       { type: 'h2', text: 'Système d\'XP' },
       {
@@ -173,7 +166,6 @@ export const sections: Section[] = [
   {
     id: 'competition',
     title: 'Compétition',
-    emoji: '🏆',
     blocks: [
       { type: 'h2', text: 'Leaderboards' },
       {
@@ -185,7 +177,6 @@ export const sections: Section[] = [
   {
     id: 'monetization',
     title: 'Monétisation',
-    emoji: '🎟️',
     blocks: [
       { type: 'h2', text: 'Passe de combat' },
       { type: 'list', items: ['Version gratuite', 'Version premium', 'Récompenses exclusives'] },
@@ -204,7 +195,6 @@ export const sections: Section[] = [
   {
     id: 'art',
     title: 'Direction artistique',
-    emoji: '🎨',
     blocks: [
       { type: 'h2', text: 'Style visuel' },
       {
@@ -227,7 +217,6 @@ export const sections: Section[] = [
   {
     id: 'backend',
     title: 'Backend & administration',
-    emoji: '🛠️',
     blocks: [
       { type: 'h2', text: 'Infrastructure' },
       { type: 'p', text: 'Base de données : PostgreSQL' },
@@ -262,7 +251,6 @@ export const sections: Section[] = [
   {
     id: 'loop',
     title: 'Boucle de gameplay',
-    emoji: '🚀',
     blocks: [
       {
         type: 'list',
